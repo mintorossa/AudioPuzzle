@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6CF61200-57D2-49AF-9184-BC421442110D}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{6CF61200-57D2-49AF-9184-BC421442110D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{E8F9B648-E1FC-463A-B69D-D9FD4AA13815}" WorkUnitID="{2819C806-D946-4E1E-AB50-F78F6F3CDE40}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Auro Headphone (Custom)" ID="{7CF272F1-0944-4E99-A605-F96E322FF830}" ShortID="1017773134" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<PropertyList>
+												<Property Name="Reverb" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="SFX" ID="{467D298B-9436-444A-9894-6B5FE6ED9FBD}">
+							<ReferenceList/>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

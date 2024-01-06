@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Character" ID="{19A265C2-CDC9-409F-9D1D-DAFD93F98E21}" ShortID="847192881">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{467D298B-9436-444A-9894-6B5FE6ED9FBD}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="FootstepAsphalt" ID="{7EB125CE-9247-48D5-8D9C-FABA13802A6A}" ShortID="243358044">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{81B65A0D-8A99-4D1D-B5A9-DE5BE1449548}" ShortID="485466878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{5EF03397-4889-4B75-88FF-F9B1A28EB0BD}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="323162568"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{5EF03397-4889-4B75-88FF-F9B1A28EB0BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{7BDE380F-AE58-42AD-8FF1-BCF275CBFB7D}" ShortID="450632725">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{B1F5039F-27D3-42A8-96D9-68B6E275443E}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470626273"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{B1F5039F-27D3-42A8-96D9-68B6E275443E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{BE057E1E-3FD6-42D7-96A1-D8A137725D8A}" ShortID="844458168">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{E11CBD44-B52C-4C17-A0D3-49A39F8B28C1}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="426909933"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{E11CBD44-B52C-4C17-A0D3-49A39F8B28C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{D4A1AEDA-902B-4900-BC6B-1B29D70C5B8A}" ShortID="991591001">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{E215478C-AD47-4B01-BD0A-6309732F235C}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733772238"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{E215478C-AD47-4B01-BD0A-6309732F235C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{844BBA86-1BD2-41C9-A76D-7C5B31A2C918}" ShortID="556583473">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{05645415-424F-499A-A0AB-BB15FF0423C2}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="788594963"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{05645415-424F-499A-A0AB-BB15FF0423C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{D66A6E19-A702-41C5-806C-8B5B200A1FB8}" ShortID="956087124">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{BBE5A699-0558-45A8-B98D-CEA1CF13214B}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="391668120"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{BBE5A699-0558-45A8-B98D-CEA1CF13214B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{CFE351CF-E308-4716-98F2-8C948E997E20}" ShortID="111268789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{9DF10268-85C2-4D66-A269-51C68C9848CB}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="907646342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{9DF10268-85C2-4D66-A269-51C68C9848CB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Positional" ID="{7B8BDFD0-98BB-4BCE-BB1E-C6DC2BA815B4}" ShortID="443869519">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Frog" ID="{587E30CD-5EE9-4FDB-8466-57196AEBBAEA}" ShortID="990998623">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animals, Amphibian, Croaking Frog SND76759" ID="{BC7E3FC0-06ED-47F9-A346-52A604B2D5F1}" ShortID="412741570">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Amphibian, Croaking Frog SND76759" ID="{B632C1A4-7D83-4519-AD41-FE0C80199A04}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="242.606"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.323227718495935"/>
+												<Property Name="LoopEnd" Type="Real64" Value="11.0881160823171"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals, Amphibian, Croaking Frog SND76759.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="152278457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Amphibian, Croaking Frog SND76759" ID="{B632C1A4-7D83-4519-AD41-FE0C80199A04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Frog2" ID="{11E8430C-875F-4419-A2BF-0B57E0111BC9}" ShortID="741440340">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Frog2" ID="{971250B3-4006-4C2D-A981-018CCA7E840D}" ShortID="614829710">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[1, 0]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND86109"/>
+										<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1704290086qjUxkGEL_91hOwVrw2c&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND86109/sfy_gzDcozBEPhffGHIFEtGTysoVsCYvGo"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="62.0"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\Emil\Soundly Audio\Animals, Amphibian, Frogs, Many, Loud, Close, Croak 02 SND86109 3.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Amphibian, Frogs, Many, Loud, Close, Croak 02 SND86109 3" ID="{BAA038FE-7A95-40AB-B34D-48535F0040C7}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="978.947"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.51219512195122"/>
+												<Property Name="LoopEnd" Type="Real64" Value="60.8658536585366"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND86109"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Animals, Amphibian, Frogs, Many, Loud, Close, Croak 02 SND86109 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="981268658"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Amphibian, Frogs, Many, Loud, Close, Croak 02 SND86109 3" ID="{BAA038FE-7A95-40AB-B34D-48535F0040C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="CatPurr" ID="{507DE45A-A986-41E5-A0E7-C5B230CB1D56}" ShortID="70773612">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CatPurr" ID="{1B1B6346-FE23-4492-A53C-7D03CB79C196}" ShortID="581631286">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND70274"/>
+										<Property Name="Soundly:FileName" Type="string" Value="C:\Users\Emil\AppData\Local\Temp\tmpjixous_k\afcache\1426367345Ff4sxqvM_wkFwGSND70274sfy.sfy"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="33.457541666666664"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\Emil\Soundly Audio\Animal, Cat Domestic, Purr, Close SND70274.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animal, Cat Domestic, Purr, Close SND70274" ID="{F370BCF8-4FA0-4EAB-AF19-09B30FA5872D}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="528.277"/>
+												<Property Name="LoopBegin" Type="Real64" Value="10.7716963414634"/>
+												<Property Name="LoopEnd" Type="Real64" Value="15.871931351626"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND70274"/>
+												<Property Name="TrimBegin" Type="Real64" Value="10.3636775406504"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16.4839595528455"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Animal, Cat Domestic, Purr, Close SND70274.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986187470"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animal, Cat Domestic, Purr, Close SND70274" ID="{F370BCF8-4FA0-4EAB-AF19-09B30FA5872D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="JapaneseWhisper" ID="{0B483EC7-F798-4E38-8380-0D1BFDC7D314}" ShortID="222661862">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="japansk3" ID="{5D929BA0-AD97-423A-964F-9C68197364F8}" ShortID="238793845">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="japansk3" ID="{F93BF532-6163-4EEA-B662-91C7AC837CBB}">
+											<Language>SFX</Language>
+											<AudioFile>japansk3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="923675673"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="japansk3" ID="{F93BF532-6163-4EEA-B662-91C7AC837CBB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="japansk9" ID="{2BF986D2-0756-4274-8DDB-97C6A0282F5A}" ShortID="555452752">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="japansk9" ID="{DDD902FF-B821-481B-9321-00F18493C97F}">
+											<Language>SFX</Language>
+											<AudioFile>japansk9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="758156000"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="japansk9" ID="{DDD902FF-B821-481B-9321-00F18493C97F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<ActorMixer Name="Ambience" ID="{3730604A-6196-4779-9E17-DCE9FF7884CB}" ShortID="453266615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Drip" ID="{F821C664-786D-4C62-9EB9-40E761659B66}" ShortID="379804478">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Drip" ID="{A870A4D6-D2D2-42E7-A2F0-E5747A466FA0}" ShortID="216958677">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Intense Water Drops SND55615" ID="{C4039474-E161-4D95-A6B3-81D5E833D9F0}" ShortID="147072622">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-730</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Intense Water Drops SND55615" ID="{1C5B0C23-C137-4EB5-9D96-5BF3BB16B120}">
+															<PropertyList>
+																<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Intense Water Drops SND55615.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="518713305"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Intense Water Drops SND55615" ID="{1C5B0C23-C137-4EB5-9D96-5BF3BB16B120}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Intense Water Drops SND55615_01" ID="{CBEF4E65-BEE1-4DF6-BEA9-91FDE38F99F2}" ShortID="169654132">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-460</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Intense Water Drops SND55615" ID="{2E6D7FEE-7658-47D8-A0F0-4508BFACC9F2}">
+															<PropertyList>
+																<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Intense Water Drops SND55615.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="518713305"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Intense Water Drops SND55615" ID="{2E6D7FEE-7658-47D8-A0F0-4508BFACC9F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Intense Water Drops SND55615" ID="{C4039474-E161-4D95-A6B3-81D5E833D9F0}"/>
+												<ItemRef Name="Water, Drip, Intense Water Drops SND55615_01" ID="{CBEF4E65-BEE1-4DF6-BEA9-91FDE38F99F2}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip2" ID="{FBB11801-B7FD-46C7-9779-880C6F5E111C}" ShortID="652426052">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Intense Water Drops SND55615 2" ID="{5A10E7CE-94BB-4CD0-919C-180155D57A3C}" ShortID="317310262">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-760</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Intense Water Drops SND55615 2" ID="{F15F901E-86BC-41F0-B742-2AE47643E9FC}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Intense Water Drops SND55615 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="12191282"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Intense Water Drops SND55615 2" ID="{F15F901E-86BC-41F0-B742-2AE47643E9FC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Intense Water Drops SND55615 2_01" ID="{4BB1F4BF-A8C2-4B5C-A8F1-F0EF6017238B}" ShortID="90286607">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-430</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Intense Water Drops SND55615 2" ID="{86014FB5-E85A-4C22-8F28-36799FE47F75}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Intense Water Drops SND55615 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="12191282"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Intense Water Drops SND55615 2" ID="{86014FB5-E85A-4C22-8F28-36799FE47F75}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Intense Water Drops SND55615 2" ID="{5A10E7CE-94BB-4CD0-919C-180155D57A3C}"/>
+												<ItemRef Name="Water, Drip, Intense Water Drops SND55615 2_01" ID="{4BB1F4BF-A8C2-4B5C-A8F1-F0EF6017238B}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip3" ID="{6DA177B6-85AE-4611-AA28-E8FD2C84E0C8}" ShortID="1004168212">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1" ID="{274AA870-49C2-498F-9B7E-6938755F6611}" ShortID="502335218">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1" ID="{6C929BDB-0360-4760-83B8-E6C29FD26176}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.33969467338217"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Droplets Of Water, Metal Bucket SND62948 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="343245534"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1" ID="{6C929BDB-0360-4760-83B8-E6C29FD26176}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1_01" ID="{4AB03A64-18B4-4339-9C97-BFFEC754353A}" ShortID="916217281">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1" ID="{A572E453-3D4D-410C-B39F-E32095C1A0D5}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Droplets Of Water, Metal Bucket SND62948 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="301941239"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1" ID="{A572E453-3D4D-410C-B39F-E32095C1A0D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Droplets Of Water, Metal Bucket SND62948 1" ID="{274AA870-49C2-498F-9B7E-6938755F6611}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip4" ID="{4C476B58-D82D-46BC-84CD-AEC31F90B0F7}" ShortID="67706951">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116" ID="{CB9C672E-C103-4304-927E-EE9BBC83EA54}" ShortID="738613967">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116" ID="{8104403F-296A-4AE4-942F-1E8D8EEE0440}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164005055"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116" ID="{8104403F-296A-4AE4-942F-1E8D8EEE0440}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116" ID="{CB9C672E-C103-4304-927E-EE9BBC83EA54}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip5" ID="{D3BF0EBC-15B9-4A6A-BD32-2E6C5C71EABB}" ShortID="732910083">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335" ID="{EE3C6DB3-1E76-45E6-90CA-16F18E371FCC}" ShortID="846687819">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335" ID="{D4D9C721-1CE2-4F57-82EE-50310D6AD24D}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Isolated, Water, Small, Container 01 SND50335.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="453838234"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335" ID="{D4D9C721-1CE2-4F57-82EE-50310D6AD24D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335_01" ID="{1B8CEB6D-5CBF-4F50-BD78-345EDD9B25F8}" ShortID="863120629">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-550</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335" ID="{4ADC8EE8-8937-4DE2-A865-31DA43A1D709}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Isolated, Water, Small, Container 01 SND50335.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="453838234"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335" ID="{4ADC8EE8-8937-4DE2-A865-31DA43A1D709}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335" ID="{EE3C6DB3-1E76-45E6-90CA-16F18E371FCC}"/>
+												<ItemRef Name="Water, Drip, Isolated, Water, Small, Container 01 SND50335_01" ID="{1B8CEB6D-5CBF-4F50-BD78-345EDD9B25F8}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip6" ID="{52F45A19-09D7-4410-A2E7-A0256AA48B7B}" ShortID="1003033668">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Isolated, Plastic SND50340" ID="{61CDD343-07F1-48A6-B63E-3B6941A41EEE}" ShortID="898419675">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Isolated, Plastic SND50340" ID="{0E0DE640-3904-48FF-B54F-0377E77BE075}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Isolated, Plastic SND50340.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="608143633"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Isolated, Plastic SND50340" ID="{0E0DE640-3904-48FF-B54F-0377E77BE075}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Isolated, Plastic SND50340_01" ID="{BE8E2D35-7F1A-43A3-B472-4B20C077B39B}" ShortID="64546453">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-630</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Isolated, Plastic SND50340" ID="{FDBEC2A0-8B9F-4838-BA75-9F0F73B52CA1}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Isolated, Plastic SND50340.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="608143633"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Isolated, Plastic SND50340" ID="{FDBEC2A0-8B9F-4838-BA75-9F0F73B52CA1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Isolated, Plastic SND50340" ID="{61CDD343-07F1-48A6-B63E-3B6941A41EEE}"/>
+												<ItemRef Name="Water, Drip, Isolated, Plastic SND50340_01" ID="{BE8E2D35-7F1A-43A3-B472-4B20C077B39B}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip7" ID="{AD8FC956-922C-4664-8C41-6E39FAD51034}" ShortID="522541767">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826" ID="{F1EF8FA6-21F6-4C32-BFCC-B4EBA01CF319}" ShortID="982500208">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826" ID="{BA44BB60-695C-4CCE-800F-36FBD9C93EEC}">
+															<PropertyList>
+																<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="586705019"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826" ID="{BA44BB60-695C-4CCE-800F-36FBD9C93EEC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826_01" ID="{9F523A54-BFCF-41AC-96F9-D0460F371102}" ShortID="143313336">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826" ID="{3A7D6A2F-0393-42CD-8C30-D2EE4B04B086}">
+															<PropertyList>
+																<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="586705019"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826" ID="{3A7D6A2F-0393-42CD-8C30-D2EE4B04B086}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826" ID="{F1EF8FA6-21F6-4C32-BFCC-B4EBA01CF319}"/>
+												<ItemRef Name="Water, Drip, Metal Pot Lid, Constant, Pouring From Sink, Light, Resonant 02 SND92826_01" ID="{9F523A54-BFCF-41AC-96F9-D0460F371102}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip8" ID="{3A73376F-6DAE-4E76-B69C-28A9D9F4F225}" ShortID="592197967">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1" ID="{A44A7041-6320-471B-B94B-32579CF4977D}" ShortID="16351330">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1" ID="{A42F099A-6506-47C0-97A8-E3BE2168445B}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310033959"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1" ID="{A42F099A-6506-47C0-97A8-E3BE2168445B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1_01" ID="{0C083CD8-2F27-40D5-B726-448E026141B8}" ShortID="625409463">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-250</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1" ID="{4CAC8531-65DF-48B1-9106-338B3D921553}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310033959"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1" ID="{4CAC8531-65DF-48B1-9106-338B3D921553}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1" ID="{A44A7041-6320-471B-B94B-32579CF4977D}"/>
+												<ItemRef Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1_01" ID="{0C083CD8-2F27-40D5-B726-448E026141B8}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip9" ID="{395CC272-EAD2-4EC2-B552-D9CBB8F2F350}" ShortID="412070226">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50" ID="{A61945B0-3956-4852-A322-2BF402F0C9A3}" ShortID="480634379">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50" ID="{34B50CF7-9294-44C8-98F8-2EE0F4EED752}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="810803844"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50" ID="{34B50CF7-9294-44C8-98F8-2EE0F4EED752}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50_01" ID="{92082727-225C-4B6E-A905-5416B721B046}" ShortID="504217243">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-250</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50" ID="{C63139AB-4664-4760-BF44-5DF60FCCA75E}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="810803844"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50" ID="{C63139AB-4664-4760-BF44-5DF60FCCA75E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50" ID="{A61945B0-3956-4852-A322-2BF402F0C9A3}"/>
+												<ItemRef Name="Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50_01" ID="{92082727-225C-4B6E-A905-5416B721B046}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip10" ID="{134DF0DE-22E3-4EE8-ADF6-1AF2B2A169EB}" ShortID="230146346">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Single Drip SND55616" ID="{964BBCE8-8CBC-4CF5-98F9-F2ACF24D7397}" ShortID="555682415">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Single Drip SND55616" ID="{B9D29B54-7D14-466B-ACB2-6608D0D3155C}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.505565501628001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Single Drip SND55616.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="595694708"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Single Drip SND55616" ID="{B9D29B54-7D14-466B-ACB2-6608D0D3155C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Single Drip SND55616_01" ID="{1B6437D6-C642-4C2D-ABA9-F10780E645FB}" ShortID="807955692">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-180</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Single Drip SND55616" ID="{33B61F72-2F81-4783-82D9-78D566E81B2E}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.493234635734636"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Single Drip SND55616.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="289478227"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Single Drip SND55616" ID="{33B61F72-2F81-4783-82D9-78D566E81B2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Single Drip SND55616" ID="{964BBCE8-8CBC-4CF5-98F9-F2ACF24D7397}"/>
+												<ItemRef Name="Water, Drip, Single Drip SND55616_01" ID="{1B6437D6-C642-4C2D-ABA9-F10780E645FB}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drip11" ID="{A5D65A45-C0DC-4D58-A14F-0AE2F1AD98D5}" ShortID="892065880">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50" ID="{F2388464-EBAF-4912-B99C-3E2FF9CF8F31}" ShortID="629271700">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50" ID="{4F1A21D9-1461-4F18-9F5C-F7EDA47745D6}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="704219089"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50" ID="{4F1A21D9-1461-4F18-9F5C-F7EDA47745D6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50_01" ID="{F15A69EC-5DE4-4C3B-BAC1-FD03C7461C5A}" ShortID="33851853">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50" ID="{256B940A-91F6-477E-8F02-DB16B5CC2445}">
+															<Language>SFX</Language>
+															<AudioFile>Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="704219089"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50" ID="{256B940A-91F6-477E-8F02-DB16B5CC2445}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50" ID="{F2388464-EBAF-4912-B99C-3E2FF9CF8F31}"/>
+												<ItemRef Name="Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50_01" ID="{F15A69EC-5DE4-4C3B-BAC1-FD03C7461C5A}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="DripTEMP" ID="{88D672D1-5562-4025-A1E4-F652C6A0FEB4}" ShortID="769422345">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<BlendContainer Name="AmbientTEMP" ID="{A4554F37-4DA4-4205-B7D6-0EBBCC410168}" ShortID="368491004">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+								<BlendContainer Name="AmbientTEMP_01" ID="{A25AE87C-70E4-4BA2-9B13-AAB2920ECC7B}" ShortID="822768012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<BlendContainer Name="Fire" ID="{3B38263D-D821-45BF-9110-5EB887FD1899}" ShortID="834734268">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{ADACCDF0-2898-4061-A7C4-93A307542A5B}" ShortID="136365632">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{6CC46A85-AD9C-446A-90F8-70D1EDA7F226}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="370.313"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.554427743902439"/>
+												<Property Name="LoopEnd" Type="Real64" Value="10.3361172256098"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="186590126"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{6CC46A85-AD9C-446A-90F8-70D1EDA7F226}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="ElectricPole" ID="{EEB2A18B-3C86-4F96-A109-EA9C67F2A3D7}" ShortID="384624745">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1" ID="{41D2EBF7-E28B-43DD-BF3A-E2CFA619D02F}" ShortID="929952039">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1" ID="{D8953904-9907-49C0-901B-F1459A572D45}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="638.827"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.703098958333333"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.9002083333333"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="680862062"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1" ID="{D8953904-9907-49C0-901B-F1459A572D45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Ambience" ID="{3490A16D-FEF1-4A57-BCF0-24172D603AD5}" ShortID="234971228">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

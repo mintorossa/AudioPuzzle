@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad0469a8472ac247bc3d25e240103d3, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0165860272b48849b609a6da8d8a4a3e
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 0165860272b48849b609a6da8d8a4a3e
+    GuidInternal: 
+    m_lastTime: -8584977652964736734
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0012f66cd257af499184bc421442110d
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 0012f66cd257af499184bc421442110d
+    GuidInternal: 
+    m_lastTime: -8584973168306993571
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0012f66cd257af499184bc421442110d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Positional
+      guid: c1059b4cb627b14582e734cf0705920a
+      id: 617296427
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0012f66cd257af499184bc421442110d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Positional
+        ObjectType: 2
+        guid: c1059b4cb627b14582e734cf0705920a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Positional
+    - name: SFX
+      guid: 8b297d4636944a4498946b5fe6ed9fbd
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0012f66cd257af499184bc421442110d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 8b297d4636944a4498946b5fe6ed9fbd
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 83814bf93cb62748bc6517ca55deab5e
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 83814bf93cb62748bc6517ca55deab5e
+    GuidInternal: 
+    m_lastTime: -8584977627332932550
+    List:
+    - name: Main
+      guid: c1cc4d6616de224ca0d6e2593082f5db
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 83814bf93cb62748bc6517ca55deab5e
+      - ElementName: Main
+        ObjectType: 7
+        guid: c1cc4d6616de224ca0d6e2593082f5db
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 009e12ee7830f646aca0498fa0065336
+    ParentPath: Events\Default Work Unit
+    guid: 009e12ee7830f646aca0498fa0065336
+    GuidInternal: 
+    m_lastTime: -8584970690199274083
+    List:
+    - name: Drip
+      guid: 7c36bae03a2527428d25131600b4aa0f
+      id: 1778020528
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      Path: Events\Default Work Unit\Drip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FootstepAsphalt
+      guid: e729a859b6e01040bcbb5b3d00aa04ea
+      id: 928448524
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: FootstepAsphalt
+        ObjectType: 3
+        guid: e729a859b6e01040bcbb5b3d00aa04ea
+      Path: Events\Default Work Unit\FootstepAsphalt
+      maxAttenuation: 0
+      maxDuration: 0.49375
+      minDuration: 0.2125
+    - name: Play_CatPurr
+      guid: e74108d55327ae4d8e7e42306fad3355
+      id: 1797954987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_CatPurr
+        ObjectType: 3
+        guid: e74108d55327ae4d8e7e42306fad3355
+      Path: Events\Default Work Unit\Play_CatPurr
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip
+      guid: bf4988bca19ae74bad53a0cccf40b957
+      id: 2040906863
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip
+        ObjectType: 3
+        guid: bf4988bca19ae74bad53a0cccf40b957
+      Path: Events\Default Work Unit\Drip\Play_Drip
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip10
+      guid: 51204742677325438b7deae8df3b346f
+      id: 3061328468
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip10
+        ObjectType: 3
+        guid: 51204742677325438b7deae8df3b346f
+      Path: Events\Default Work Unit\Drip\Play_Drip10
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip11
+      guid: 90e35fbc4f30fd4291941c4d35ca65e5
+      id: 3061328469
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip11
+        ObjectType: 3
+        guid: 90e35fbc4f30fd4291941c4d35ca65e5
+      Path: Events\Default Work Unit\Drip\Play_Drip11
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip2
+      guid: d2bbd021a1040645950b07f885e0bf2d
+      id: 4008983183
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip2
+        ObjectType: 3
+        guid: d2bbd021a1040645950b07f885e0bf2d
+      Path: Events\Default Work Unit\Drip\Play_Drip2
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip3
+      guid: c49d88179e9c0f46ad458b5d35a60a3d
+      id: 4008983182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip3
+        ObjectType: 3
+        guid: c49d88179e9c0f46ad458b5d35a60a3d
+      Path: Events\Default Work Unit\Drip\Play_Drip3
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip4
+      guid: 995c1ba2de58bc4e8864c0ebc6223649
+      id: 4008983177
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip4
+        ObjectType: 3
+        guid: 995c1ba2de58bc4e8864c0ebc6223649
+      Path: Events\Default Work Unit\Drip\Play_Drip4
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip5
+      guid: 5fccab1bf3d79645bd584dacdca7a352
+      id: 4008983176
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip5
+        ObjectType: 3
+        guid: 5fccab1bf3d79645bd584dacdca7a352
+      Path: Events\Default Work Unit\Drip\Play_Drip5
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip6
+      guid: 86e62159957a914fa7c3db1edad5efb4
+      id: 4008983179
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip6
+        ObjectType: 3
+        guid: 86e62159957a914fa7c3db1edad5efb4
+      Path: Events\Default Work Unit\Drip\Play_Drip6
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip8
+      guid: 829c21c54ef8e14e92c886296526d35c
+      id: 4008983173
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip8
+        ObjectType: 3
+        guid: 829c21c54ef8e14e92c886296526d35c
+      Path: Events\Default Work Unit\Drip\Play_Drip8
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drip9
+      guid: b230c0be940a774f86f4340899a29f1f
+      id: 4008983172
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Drip
+        ObjectType: 4
+        guid: 7c36bae03a2527428d25131600b4aa0f
+      - ElementName: Play_Drip9
+        ObjectType: 3
+        guid: b230c0be940a774f86f4340899a29f1f
+      Path: Events\Default Work Unit\Drip\Play_Drip9
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ElectricPole
+      guid: 791aa4787dbdf348afdac41c6ef568f7
+      id: 4246707501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_ElectricPole
+        ObjectType: 3
+        guid: 791aa4787dbdf348afdac41c6ef568f7
+      Path: Events\Default Work Unit\Play_ElectricPole
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fire
+      guid: 83e2faa8411604499efaabee278e8cc5
+      id: 3015324718
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_Fire
+        ObjectType: 3
+        guid: 83e2faa8411604499efaabee278e8cc5
+      Path: Events\Default Work Unit\Play_Fire
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Frog
+      guid: 6280e0acfb2c6c4ea5c579fe94f9fe87
+      id: 2659198924
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_Frog
+        ObjectType: 3
+        guid: 6280e0acfb2c6c4ea5c579fe94f9fe87
+      Path: Events\Default Work Unit\Play_Frog
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Frog2
+      guid: 934a308958b1874e8c462480bf5b3530
+      id: 1337894422
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_Frog2
+        ObjectType: 3
+        guid: 934a308958b1874e8c462480bf5b3530
+      Path: Events\Default Work Unit\Play_Frog2
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_JapaneseWhisper
+      guid: 8d6f1d5d15521f47990f09f790289ad5
+      id: 2998759187
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_JapaneseWhisper
+        ObjectType: 3
+        guid: 8d6f1d5d15521f47990f09f790289ad5
+      Path: Events\Default Work Unit\Play_JapaneseWhisper
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
+    - name: StopAll200ms
+      guid: 925a715385d31e4ea51fc1c4b9e06536
+      id: 2751300724
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: StopAll200ms
+        ObjectType: 3
+        guid: 925a715385d31e4ea51fc1c4b9e06536
+      Path: Events\Default Work Unit\StopAll200ms
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ae5bfd2688f9ca44bde07990e89cd310
+    ParentPath: Game Parameters\Default Work Unit
+    guid: ae5bfd2688f9ca44bde07990e89cd310
+    GuidInternal: 
+    m_lastTime: -8584977652964046581
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 13af915d469d634987029876a6b158bf
+    ParentPath: States\Default Work Unit
+    guid: 13af915d469d634987029876a6b158bf
+    GuidInternal: 
+    m_lastTime: -8584977652970237977
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 48446000209c654d99a0ea0076d9db8a
+    ParentPath: Switches\Default Work Unit
+    guid: 48446000209c654d99a0ea0076d9db8a
+    GuidInternal: 
+    m_lastTime: -8584977652964966785
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ea29391c9c8afc45baa77b4f7aee1512
+    ParentPath: Triggers\Default Work Unit
+    guid: ea29391c9c8afc45baa77b4f7aee1512
+    GuidInternal: 
+    m_lastTime: -8584977652964106593
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

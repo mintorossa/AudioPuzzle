@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AEDED1EF-9F09-A3E5-3146-CE4F77729F9E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1017773134" Name="Auro Headphone (Custom)" LibName="Auro Headphone" LibId="72093811"/>
+				</Custom>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="617296427" Name="Positional">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1017773134"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{247BD455-24B2-23AD-97C8-0BB79898F662}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="12191282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Intense Water Drops SND55615 2.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Intense Water Drops SND55615 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="152278457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Animals, Amphibian, Croaking Frog SND76759.wav</ShortName>
+					<CachePath>SFX/Animals, Amphibian, Croaking Frog SND76759_7C353187.wem</CachePath>
+				</File>
+				<File Id="164005055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Drops Falling Into Buckets, Interior 01 SND81116_10C4C929.wem</CachePath>
+				</File>
+				<File Id="186590126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1.wav</ShortName>
+					<CachePath>SFX/Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1_4A42434F.wem</CachePath>
+				</File>
+				<File Id="289478227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Single Drip SND55616.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Single Drip SND55616_E501BC75.wem</CachePath>
+				</File>
+				<File Id="310033959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323162568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513_10C4C929.wem</CachePath>
+				</File>
+				<File Id="343245534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Droplets Of Water, Metal Bucket SND62948 1.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Droplets Of Water, Metal Bucket SND62948 1_CA48C3A4.wem</CachePath>
+				</File>
+				<File Id="391668120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 5.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="426909933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 2.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="453838234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Isolated, Water, Small, Container 01 SND50335.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Isolated, Water, Small, Container 01 SND50335_10C4C929.wem</CachePath>
+				</File>
+				<File Id="470626273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 1.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="518713305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Intense Water Drops SND55615.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Intense Water Drops SND55615_964618FA.wem</CachePath>
+				</File>
+				<File Id="595694708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Single Drip SND55616.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Single Drip SND55616_01B15074.wem</CachePath>
+				</File>
+				<File Id="608143633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Isolated, Plastic SND50340.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Isolated, Plastic SND50340_10C4C929.wem</CachePath>
+				</File>
+				<File Id="680862062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1.wav</ShortName>
+					<CachePath>SFX/Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1_AF36630E.wem</CachePath>
+				</File>
+				<File Id="704219089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Water Surface, Small, Light 01 SND93130 - Pitch 50_10C4C929.wem</CachePath>
+				</File>
+				<File Id="733772238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 3.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758156000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>japansk9.wav</ShortName>
+					<CachePath>SFX/japansk9_10C4C929.wem</CachePath>
+				</File>
+				<File Id="788594963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 4.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="810803844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50.wav</ShortName>
+					<CachePath>SFX/Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50_10C4C929.wem</CachePath>
+				</File>
+				<File Id="907646342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 6.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="923675673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>japansk3.wav</ShortName>
+					<CachePath>SFX/japansk3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="981268658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Audio\Animals, Amphibian, Frogs, Many, Loud, Close, Croak 02 SND86109 3.wav</ShortName>
+					<CachePath>SFX/Soundly Audio/Animals, Amphibian, Frogs, Many, Loud, Close, Croak 02 SND86109 3_A8D7761F.wem</CachePath>
+				</File>
+				<File Id="986187470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Audio\Animal, Cat Domestic, Purr, Close SND70274.wav</ShortName>
+					<CachePath>SFX/Soundly Audio/Animal, Cat Domestic, Purr, Close SND70274_A5CDF898.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="928448524" Name="FootstepAsphalt" DurationType="OneShot" DurationMin="0.2125" DurationMax="0.49375">
+					<MediaRefs>
+						<MediaRef Id="323162568"/>
+						<MediaRef Id="391668120"/>
+						<MediaRef Id="426909933"/>
+						<MediaRef Id="470626273"/>
+						<MediaRef Id="733772238"/>
+						<MediaRef Id="788594963"/>
+						<MediaRef Id="907646342"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1797954987" Name="Play_CatPurr" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="986187470"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2040906863" Name="Play_Drip" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="518713305"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3061328468" Name="Play_Drip10" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="289478227"/>
+						<MediaRef Id="595694708"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3061328469" Name="Play_Drip11" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="704219089"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983183" Name="Play_Drip2" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="12191282"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983182" Name="Play_Drip3" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="343245534"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983177" Name="Play_Drip4" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="164005055"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983176" Name="Play_Drip5" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="453838234"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983179" Name="Play_Drip6" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="608143633"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983173" Name="Play_Drip8" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310033959"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008983172" Name="Play_Drip9" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="810803844"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4246707501" Name="Play_ElectricPole" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="680862062"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3015324718" Name="Play_Fire" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="186590126"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2659198924" Name="Play_Frog" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="152278457"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1337894422" Name="Play_Frog2" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="981268658"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2998759187" Name="Play_JapaneseWhisper" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="758156000"/>
+						<MediaRef Id="923675673"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2751300724" Name="StopAll200ms" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8327694C-E44E-FA96-453A-679967022605}</FileHash>
+</SoundBanksInfo>

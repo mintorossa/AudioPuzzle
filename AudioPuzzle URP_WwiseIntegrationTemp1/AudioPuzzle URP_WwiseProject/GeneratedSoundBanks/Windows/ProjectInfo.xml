@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="AudioPuzzle URP_WwiseProject" GUID="{AED71522-DA2B-4DB4-A7BA-679D48C9D4F6}" Generator="2022.1.9.8365"/>
+	<CacheRoot>../../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{7A684CCB-BFB8-420B-8D2E-C11126512243}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../Mac"/>
+		<Platform Name="Windows" GUID="{2529609C-F451-4010-BAB4-C1B6BFB24B6B}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="."/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{EB7A5639-3F90-4D95-ADAF-9193BE2EE178}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{90EB041F-2C66-E2A8-7C6C-03C7BE8AA182}</FileHash>
+</ProjectInfo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="Mac" BasePlatform="Mac">
+	<PluginLibs>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+		<PluginLib LibName="Auro Headphone" LibId="72093811" Type="Effect" DLL="Auro" StaticLib="AuroHeadphoneFX"/>
+	</PluginLibs>
+	<FileHash>{C9AF73AD-F97E-DD6D-6740-A7E637082978}</FileHash>
+</PluginInfo>
