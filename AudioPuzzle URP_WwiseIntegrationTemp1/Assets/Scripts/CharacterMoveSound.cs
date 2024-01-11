@@ -7,6 +7,7 @@ public class CharacterMovementSoundtest2 : MonoBehaviour
     public float movementThreshold = 0.1f; // Adjust this value based on your movement sensitivity
     public float speedThreshold = 0.5f;    // Adjust this value based on the minimum speed to trigger sound
     public float soundInterval = 0.2f;     // Adjust this value for the time between sounds
+    public ShowFootstepUI FootstepManager;
     private bool isMoving = false;
     private float timer = 0f;
     private Vector3 lastPosition;
@@ -36,6 +37,7 @@ public class CharacterMovementSoundtest2 : MonoBehaviour
                     isMoving = true;
                     timer = 0f;
                     Debug.LogWarning("First Step Taken");
+                    FootstepManager.FootstepTakenUI();
                 }
                 else
                 {
@@ -46,6 +48,7 @@ public class CharacterMovementSoundtest2 : MonoBehaviour
                         AkSoundEngine.PostEvent("FootstepAsphalt", this.gameObject);
                         timer = 0f;
                         Debug.LogWarning("Step Taken");
+                        FootstepManager.FootstepTakenUI();
                     }
                 }
             }
