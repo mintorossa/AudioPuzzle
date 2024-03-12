@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D8F98BEB-985A-4D53-B51D-5C3EA5A6BE1A}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D8F98BEB-985A-4D53-B51D-5C3EA5A6BE1A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D8F98BEB-985A-4D53-B51D-5C3EA5A6BE1A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="default" ID="{3AD8A421-0D15-4619-9E28-D7C5028F7735}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Barrelhit" ID="{31DE58A2-2C85-4505-9812-61B3BB439B4B}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Azimuth" ID="{94373C55-F1D5-4D14-8B93-62AB37A2B23F}"/>
+							<Value>3</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="A" ID="{B78A6A68-74CD-4BE7-A06C-EC2A89161FD3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Off" ID="{F02E074A-7C89-48F7-AB9D-0F601B6BA3C0}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

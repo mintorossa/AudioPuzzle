@@ -5,11 +5,11 @@
 		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7981F323-F44E-2BE0-B058-2749305ED554}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BD0F5B20-9767-2767-2DB4-087E0315BAA1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -32,14 +32,61 @@
 				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="1437246667" Name="Azimuth"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444247238" Name="PickupMusic">
+					<States>
+						<State Id="84696444" Name="C"/>
+						<State Id="84696445" Name="B"/>
+						<State Id="84696446" Name="A"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4037693230" Name="PickupSFX">
+					<States>
+						<State Id="84696442" Name="E"/>
+						<State Id="84696443" Name="D"/>
+						<State Id="84696444" Name="C"/>
+						<State Id="84696445" Name="B"/>
+						<State Id="84696446" Name="A"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2364741570" Name="EventEnabled">
+					<Switches>
+						<Switch Id="930712164" Name="Off"/>
+						<Switch Id="1651971902" Name="On"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3287431056" Name="FootstepMaterial">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="4169408098" Name="Asphalt"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{247BD455-24B2-23AD-97C8-0BB79898F662}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A248865F-E1DC-E31B-A53F-B624D65F2E32}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="8390914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MonoDigitalPickupSFX-02_L.wav</ShortName>
+					<CachePath>SFX/MonoDigitalPickupSFX-02_L_10C4C929.wem</CachePath>
+				</File>
 				<File Id="12191282" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Intense Water Drops SND55615 2.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Intense Water Drops SND55615 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="31914501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 5.wav</ShortName>
+					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 5_74AA2280.wem</CachePath>
 				</File>
 				<File Id="152278457" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Animals, Amphibian, Croaking Frog SND76759.wav</ShortName>
@@ -53,9 +100,21 @@
 					<ShortName>Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1.wav</ShortName>
 					<CachePath>SFX/Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1_4A42434F.wem</CachePath>
 				</File>
+				<File Id="235660710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MonoDigitalPickupSFX-03_L.wav</ShortName>
+					<CachePath>SFX/MonoDigitalPickupSFX-03_L_10C4C929.wem</CachePath>
+				</File>
+				<File Id="251718847" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 6.wav</ShortName>
+					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 6_48A8F4C1.wem</CachePath>
+				</File>
 				<File Id="289478227" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Single Drip SND55616.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Single Drip SND55616_E501BC75.wem</CachePath>
+				</File>
+				<File Id="304481849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 2.wav</ShortName>
+					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 2_52EF65B1.wem</CachePath>
 				</File>
 				<File Id="310033959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1.wav</ShortName>
@@ -64,6 +123,10 @@
 				<File Id="323162568" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513_10C4C929.wem</CachePath>
+				</File>
+				<File Id="334033127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 3.wav</ShortName>
+					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 3_DF686E12.wem</CachePath>
 				</File>
 				<File Id="343245534" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Droplets Of Water, Metal Bucket SND62948 1.wav</ShortName>
@@ -97,6 +160,10 @@
 					<ShortName>Water, Drip, Isolated, Plastic SND50340.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Isolated, Plastic SND50340_10C4C929.wem</CachePath>
 				</File>
+				<File Id="677344345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 4.wav</ShortName>
+					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 4_5AB8441C.wem</CachePath>
+				</File>
 				<File Id="680862062" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1.wav</ShortName>
 					<CachePath>SFX/Electricity, Misc, Electric Pole, Pole Vibrations 01 SND80367 1_AF36630E.wem</CachePath>
@@ -113,6 +180,14 @@
 					<ShortName>japansk9.wav</ShortName>
 					<CachePath>SFX/japansk9_10C4C929.wem</CachePath>
 				</File>
+				<File Id="763808551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MonoDigitalPickupSFX-01_L.wav</ShortName>
+					<CachePath>SFX/MonoDigitalPickupSFX-01_L_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773449636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience, Suburban, Night, Distant Traffic, Wash 01 SND1169.wav</ShortName>
+					<CachePath>SFX/Ambience, Suburban, Night, Distant Traffic, Wash 01 SND1169_FADB29F3.wem</CachePath>
+				</File>
 				<File Id="788594963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 4.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 4_10C4C929.wem</CachePath>
@@ -120,6 +195,14 @@
 				<File Id="810803844" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 03 SND81121 - Pitch 50_10C4C929.wem</CachePath>
+				</File>
+				<File Id="850655793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MonoDigitalPickupSFX-04_L.wav</ShortName>
+					<CachePath>SFX/MonoDigitalPickupSFX-04_L_10C4C929.wem</CachePath>
+				</File>
+				<File Id="854574126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MonoDigitalPickupSFX-08_L.wav</ShortName>
+					<CachePath>SFX/MonoDigitalPickupSFX-08_L_10C4C929.wem</CachePath>
 				</File>
 				<File Id="907646342" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 6.wav</ShortName>
@@ -138,103 +221,162 @@
 					<CachePath>SFX/Soundly Audio/Animal, Cat Domestic, Purr, Close SND70274_A5CDF898.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="650504657" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="928448524" Name="FootstepAsphalt" DurationType="OneShot" DurationMin="0.2125" DurationMax="0.49375">
-					<MediaRefs>
-						<MediaRef Id="323162568"/>
-						<MediaRef Id="391668120"/>
-						<MediaRef Id="426909933"/>
-						<MediaRef Id="470626273"/>
-						<MediaRef Id="733772238"/>
-						<MediaRef Id="788594963"/>
-						<MediaRef Id="907646342"/>
-					</MediaRefs>
+				<Event Id="1866025847" Name="Footstep" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.2125" DurationMax="0.49375">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="4169408098" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="323162568"/>
+								<MediaRef Id="391668120"/>
+								<MediaRef Id="426909933"/>
+								<MediaRef Id="470626273"/>
+								<MediaRef Id="733772238"/>
+								<MediaRef Id="788594963"/>
+								<MediaRef Id="907646342"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="1797954987" Name="Play_CatPurr" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="3896929605" Name="Play_Barrelhit" MaxAttenuation="80" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="650504657"/>
+						</Custom>
+					</PluginRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2364741570" Id="1651971902"/>
+							<MediaRefs>
+								<MediaRef Id="31914501"/>
+								<MediaRef Id="251718847"/>
+								<MediaRef Id="304481849"/>
+								<MediaRef Id="334033127"/>
+								<MediaRef Id="677344345"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1797954987" Name="Play_CatPurr" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="986187470"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2040906863" Name="Play_Drip" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="2040906863" Name="Play_Drip" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="518713305"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3061328468" Name="Play_Drip10" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="3061328468" Name="Play_Drip10" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="289478227"/>
 						<MediaRef Id="595694708"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3061328469" Name="Play_Drip11" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="3061328469" Name="Play_Drip11" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="704219089"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983183" Name="Play_Drip2" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983183" Name="Play_Drip2" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="12191282"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983182" Name="Play_Drip3" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983182" Name="Play_Drip3" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="343245534"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983177" Name="Play_Drip4" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983177" Name="Play_Drip4" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="164005055"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983176" Name="Play_Drip5" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983176" Name="Play_Drip5" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="453838234"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983179" Name="Play_Drip6" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983179" Name="Play_Drip6" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="608143633"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983173" Name="Play_Drip8" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983173" Name="Play_Drip8" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310033959"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4008983172" Name="Play_Drip9" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4008983172" Name="Play_Drip9" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="810803844"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4246707501" Name="Play_ElectricPole" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="4246707501" Name="Play_ElectricPole" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="680862062"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3015324718" Name="Play_Fire" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="3015324718" Name="Play_Fire" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="186590126"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2659198924" Name="Play_Frog" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="2659198924" Name="Play_Frog" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="152278457"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1337894422" Name="Play_Frog2" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="1337894422" Name="Play_Frog2" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="981268658"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2998759187" Name="Play_JapaneseWhisper" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="2998759187" Name="Play_JapaneseWhisper" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="758156000"/>
 						<MediaRef Id="923675673"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4206683656" Name="Play_Night" MaxAttenuation="160" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="773449636"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3043903975" Name="Play_PickupSFX" MaxAttenuation="80" DurationType="OneShot" DurationMin="1.4158113" DurationMax="3.1783895">
+					<MediaRefs>
+						<MediaRef Id="8390914"/>
+						<MediaRef Id="235660710"/>
+						<MediaRef Id="763808551"/>
+						<MediaRef Id="850655793"/>
+						<MediaRef Id="854574126"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2751300724" Name="StopAll200ms" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2364741570" Name="EventEnabled">
+					<Switches>
+						<Switch Id="930712164" Name="Off"/>
+						<Switch Id="1651971902" Name="On"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3287431056" Name="FootstepMaterial">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="4169408098" Name="Asphalt"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEC9C402-EFBF-724D-0181-C61F9CCC01C0}</FileHash>
+	<FileHash>{EABE24BF-85B9-762D-F144-DA7430CF2FC1}</FileHash>
 </SoundBanksInfo>

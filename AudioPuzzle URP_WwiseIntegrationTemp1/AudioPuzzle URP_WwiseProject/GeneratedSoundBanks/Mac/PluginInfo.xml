@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Mac" BasePlatform="Mac">
 	<PluginLibs>
+		<PluginLib LibName="Wwise Silence" LibId="6619138" Type="Source" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 		<PluginLib LibName="Auro Headphone" LibId="72093811" Type="Effect" DLL="Auro" StaticLib="AuroHeadphoneFX"/>
 	</PluginLibs>
-	<FileHash>{C9AF73AD-F97E-DD6D-6740-A7E637082978}</FileHash>
+	<FileHash>{67620239-C799-2233-2BDC-E6239EABAC19}</FileHash>
 </PluginInfo>

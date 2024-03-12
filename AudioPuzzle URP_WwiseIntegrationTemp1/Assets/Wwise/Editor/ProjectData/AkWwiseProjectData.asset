@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 83814bf93cb62748bc6517ca55deab5e
     GuidInternal: 
-    m_lastTime: -8584977627332932550
+    m_lastTime: -8584918909019111777
     List:
     - name: Main
       guid: c1cc4d6616de224ca0d6e2593082f5db
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 009e12ee7830f646aca0498fa0065336
     GuidInternal: 
-    m_lastTime: -8584970690199274083
+    m_lastTime: -8584913404159430391
     List:
     - name: Drip
       guid: 7c36bae03a2527428d25131600b4aa0f
@@ -147,9 +147,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: FootstepAsphalt
+    - name: Footstep
       guid: e729a859b6e01040bcbb5b3d00aa04ea
-      id: 928448524
+      id: 1866025847
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -157,13 +157,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 009e12ee7830f646aca0498fa0065336
-      - ElementName: FootstepAsphalt
+      - ElementName: Footstep
         ObjectType: 3
         guid: e729a859b6e01040bcbb5b3d00aa04ea
-      Path: Events\Default Work Unit\FootstepAsphalt
-      maxAttenuation: 0
+      Path: Events\Default Work Unit\Footstep
+      maxAttenuation: 10
       maxDuration: 0.49375
       minDuration: 0.2125
+    - name: Play_Barrelhit
+      guid: 470144543743614fafe3560e1b719e59
+      id: 3896929605
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_Barrelhit
+        ObjectType: 3
+        guid: 470144543743614fafe3560e1b719e59
+      Path: Events\Default Work Unit\Play_Barrelhit
+      maxAttenuation: 80
+      maxDuration: -1
+      minDuration: -1
     - name: Play_CatPurr
       guid: e74108d55327ae4d8e7e42306fad3355
       id: 1797954987
@@ -178,7 +195,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e74108d55327ae4d8e7e42306fad3355
       Path: Events\Default Work Unit\Play_CatPurr
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip
@@ -198,7 +215,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bf4988bca19ae74bad53a0cccf40b957
       Path: Events\Default Work Unit\Drip\Play_Drip
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip10
@@ -218,7 +235,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 51204742677325438b7deae8df3b346f
       Path: Events\Default Work Unit\Drip\Play_Drip10
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip11
@@ -238,7 +255,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 90e35fbc4f30fd4291941c4d35ca65e5
       Path: Events\Default Work Unit\Drip\Play_Drip11
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip2
@@ -258,7 +275,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d2bbd021a1040645950b07f885e0bf2d
       Path: Events\Default Work Unit\Drip\Play_Drip2
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip3
@@ -278,7 +295,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c49d88179e9c0f46ad458b5d35a60a3d
       Path: Events\Default Work Unit\Drip\Play_Drip3
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip4
@@ -298,7 +315,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 995c1ba2de58bc4e8864c0ebc6223649
       Path: Events\Default Work Unit\Drip\Play_Drip4
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip5
@@ -318,7 +335,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5fccab1bf3d79645bd584dacdca7a352
       Path: Events\Default Work Unit\Drip\Play_Drip5
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip6
@@ -338,7 +355,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 86e62159957a914fa7c3db1edad5efb4
       Path: Events\Default Work Unit\Drip\Play_Drip6
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip8
@@ -358,7 +375,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 829c21c54ef8e14e92c886296526d35c
       Path: Events\Default Work Unit\Drip\Play_Drip8
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Drip9
@@ -378,7 +395,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b230c0be940a774f86f4340899a29f1f
       Path: Events\Default Work Unit\Drip\Play_Drip9
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_ElectricPole
@@ -395,7 +412,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 791aa4787dbdf348afdac41c6ef568f7
       Path: Events\Default Work Unit\Play_ElectricPole
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Fire
@@ -412,7 +429,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 83e2faa8411604499efaabee278e8cc5
       Path: Events\Default Work Unit\Play_Fire
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Frog
@@ -429,7 +446,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6280e0acfb2c6c4ea5c579fe94f9fe87
       Path: Events\Default Work Unit\Play_Frog
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_Frog2
@@ -446,7 +463,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 934a308958b1874e8c462480bf5b3530
       Path: Events\Default Work Unit\Play_Frog2
-      maxAttenuation: 60
+      maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
     - name: Play_JapaneseWhisper
@@ -463,7 +480,61 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8d6f1d5d15521f47990f09f790289ad5
       Path: Events\Default Work Unit\Play_JapaneseWhisper
-      maxAttenuation: 60
+      maxAttenuation: 80
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Night
+      guid: 0336ee229bb6604eb450467f978dcbee
+      id: 4206683656
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: PositionalAmbience
+        ObjectType: 4
+        guid: 6ffde8d4fffabb479badfe0a1fc94761
+      - ElementName: Play_Night
+        ObjectType: 3
+        guid: 0336ee229bb6604eb450467f978dcbee
+      Path: Events\Default Work Unit\PositionalAmbience\Play_Night
+      maxAttenuation: 160
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_PickupSFX
+      guid: cfb9db58bea6364e863c2c4b10b6d848
+      id: 3043903975
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Play_PickupSFX
+        ObjectType: 3
+        guid: cfb9db58bea6364e863c2c4b10b6d848
+      Path: Events\Default Work Unit\Play_PickupSFX
+      maxAttenuation: 80
+      maxDuration: 3.1783895
+      minDuration: 1.4158113
+    - name: PositionalAmbience
+      guid: 6ffde8d4fffabb479badfe0a1fc94761
+      id: 3053518419
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: PositionalAmbience
+        ObjectType: 4
+        guid: 6ffde8d4fffabb479badfe0a1fc94761
+      Path: Events\Default Work Unit\PositionalAmbience
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: StopAll200ms
@@ -495,8 +566,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: ae5bfd2688f9ca44bde07990e89cd310
     GuidInternal: 
-    m_lastTime: -8584977652964046581
-    List: []
+    m_lastTime: -8584918031744980696
+    List:
+    - name: Azimuth
+      guid: 553c3794d5f1144d8b9362ab37a2b23f
+      id: 1437246667
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ae5bfd2688f9ca44bde07990e89cd310
+      - ElementName: Azimuth
+        ObjectType: 13
+        guid: 553c3794d5f1144d8b9362ab37a2b23f
+      Path: Game Parameters\Default Work Unit\Azimuth
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -509,8 +594,204 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 13af915d469d634987029876a6b158bf
     GuidInternal: 
-    m_lastTime: -8584977652970237977
-    List: []
+    m_lastTime: -8584913412922659432
+    List:
+    - name: PickupMusic
+      guid: 8ce2babe517fe74c9ecb588f6cf25a34
+      id: 444247238
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13af915d469d634987029876a6b158bf
+      - ElementName: PickupMusic
+        ObjectType: 9
+        guid: 8ce2babe517fe74c9ecb588f6cf25a34
+      Path: States\Default Work Unit\PickupMusic
+      values:
+      - name: A
+        guid: 5bef76f6c05c0643a9a073832aefb482
+        id: 84696446
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupMusic
+          ObjectType: 9
+          guid: 8ce2babe517fe74c9ecb588f6cf25a34
+        - ElementName: A
+          ObjectType: 8
+          guid: 5bef76f6c05c0643a9a073832aefb482
+      - name: B
+        guid: 5c0bb3b92efdc648b2e2e2aa3e026ef9
+        id: 84696445
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupMusic
+          ObjectType: 9
+          guid: 8ce2babe517fe74c9ecb588f6cf25a34
+        - ElementName: B
+          ObjectType: 8
+          guid: 5c0bb3b92efdc648b2e2e2aa3e026ef9
+      - name: C
+        guid: f2fd60cb3a77d947a36b69fb986fe4e5
+        id: 84696444
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupMusic
+          ObjectType: 9
+          guid: 8ce2babe517fe74c9ecb588f6cf25a34
+        - ElementName: C
+          ObjectType: 8
+          guid: f2fd60cb3a77d947a36b69fb986fe4e5
+      - name: None
+        guid: c9f51717017b884aa9dd0ef3afdf0f44
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupMusic
+          ObjectType: 9
+          guid: 8ce2babe517fe74c9ecb588f6cf25a34
+        - ElementName: None
+          ObjectType: 8
+          guid: c9f51717017b884aa9dd0ef3afdf0f44
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PickupSFX
+      guid: 0b949428aa2a854c9addff00706cc708
+      id: 4037693230
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13af915d469d634987029876a6b158bf
+      - ElementName: PickupSFX
+        ObjectType: 9
+        guid: 0b949428aa2a854c9addff00706cc708
+      Path: States\Default Work Unit\PickupSFX
+      values:
+      - name: A
+        guid: 686a8ab7cd74e74ba06cec2a89161fd3
+        id: 84696446
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupSFX
+          ObjectType: 9
+          guid: 0b949428aa2a854c9addff00706cc708
+        - ElementName: A
+          ObjectType: 8
+          guid: 686a8ab7cd74e74ba06cec2a89161fd3
+      - name: B
+        guid: 2fe144d08730674890eb4e2d25bf029c
+        id: 84696445
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupSFX
+          ObjectType: 9
+          guid: 0b949428aa2a854c9addff00706cc708
+        - ElementName: B
+          ObjectType: 8
+          guid: 2fe144d08730674890eb4e2d25bf029c
+      - name: C
+        guid: d017383606396d459267e126dc6d6050
+        id: 84696444
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupSFX
+          ObjectType: 9
+          guid: 0b949428aa2a854c9addff00706cc708
+        - ElementName: C
+          ObjectType: 8
+          guid: d017383606396d459267e126dc6d6050
+      - name: D
+        guid: 21e338b0781b344daacf1ee67fa31d59
+        id: 84696443
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupSFX
+          ObjectType: 9
+          guid: 0b949428aa2a854c9addff00706cc708
+        - ElementName: D
+          ObjectType: 8
+          guid: 21e338b0781b344daacf1ee67fa31d59
+      - name: E
+        guid: 3d0f39ecd4bff844843e038b342b06a8
+        id: 84696442
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupSFX
+          ObjectType: 9
+          guid: 0b949428aa2a854c9addff00706cc708
+        - ElementName: E
+          ObjectType: 8
+          guid: 3d0f39ecd4bff844843e038b342b06a8
+      - name: None
+        guid: bc132e78869e0a4493272d19d7674ca1
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 13af915d469d634987029876a6b158bf
+        - ElementName: PickupSFX
+          ObjectType: 9
+          guid: 0b949428aa2a854c9addff00706cc708
+        - ElementName: None
+          ObjectType: 8
+          guid: bc132e78869e0a4493272d19d7674ca1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -523,8 +804,140 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 48446000209c654d99a0ea0076d9db8a
     GuidInternal: 
-    m_lastTime: -8584977652964966785
-    List: []
+    m_lastTime: -8584917782528369996
+    List:
+    - name: EventEnabled
+      guid: aea0415ca25ea349a2282e2be71ed9c0
+      id: 2364741570
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48446000209c654d99a0ea0076d9db8a
+      - ElementName: EventEnabled
+        ObjectType: 11
+        guid: aea0415ca25ea349a2282e2be71ed9c0
+      Path: Switches\Default Work Unit\EventEnabled
+      values:
+      - name: Off
+        guid: 4a072ef0897cf748ab9d0f601b6ba3c0
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 48446000209c654d99a0ea0076d9db8a
+        - ElementName: EventEnabled
+          ObjectType: 11
+          guid: aea0415ca25ea349a2282e2be71ed9c0
+        - ElementName: Off
+          ObjectType: 10
+          guid: 4a072ef0897cf748ab9d0f601b6ba3c0
+      - name: On
+        guid: 99b1adaca542964d9e9ffbd3279776e3
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 48446000209c654d99a0ea0076d9db8a
+        - ElementName: EventEnabled
+          ObjectType: 11
+          guid: aea0415ca25ea349a2282e2be71ed9c0
+        - ElementName: On
+          ObjectType: 10
+          guid: 99b1adaca542964d9e9ffbd3279776e3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: FootstepMaterial
+      guid: 03632c526a5f6b47a8c2e7474fabf2b8
+      id: 3287431056
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48446000209c654d99a0ea0076d9db8a
+      - ElementName: FootstepMaterial
+        ObjectType: 11
+        guid: 03632c526a5f6b47a8c2e7474fabf2b8
+      Path: Switches\Default Work Unit\FootstepMaterial
+      values:
+      - name: Asphalt
+        guid: 0a5d2be92a1b6d4ea9bc27290a24dcd6
+        id: 4169408098
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 48446000209c654d99a0ea0076d9db8a
+        - ElementName: FootstepMaterial
+          ObjectType: 11
+          guid: 03632c526a5f6b47a8c2e7474fabf2b8
+        - ElementName: Asphalt
+          ObjectType: 10
+          guid: 0a5d2be92a1b6d4ea9bc27290a24dcd6
+      - name: Grass
+        guid: 8d7cd522599d5348a20d3f4f79e834d6
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 48446000209c654d99a0ea0076d9db8a
+        - ElementName: FootstepMaterial
+          ObjectType: 11
+          guid: 03632c526a5f6b47a8c2e7474fabf2b8
+        - ElementName: Grass
+          ObjectType: 10
+          guid: 8d7cd522599d5348a20d3f4f79e834d6
+      - name: Mud
+        guid: 605f136d7db8b040a2d10f9cbbefd1d4
+        id: 712897245
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 48446000209c654d99a0ea0076d9db8a
+        - ElementName: FootstepMaterial
+          ObjectType: 11
+          guid: 03632c526a5f6b47a8c2e7474fabf2b8
+        - ElementName: Mud
+          ObjectType: 10
+          guid: 605f136d7db8b040a2d10f9cbbefd1d4
+      - name: Wood
+        guid: d7985f87a038354fb30148ccff126c0a
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 48446000209c654d99a0ea0076d9db8a
+        - ElementName: FootstepMaterial
+          ObjectType: 11
+          guid: 03632c526a5f6b47a8c2e7474fabf2b8
+        - ElementName: Wood
+          ObjectType: 10
+          guid: d7985f87a038354fb30148ccff126c0a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -539,9 +952,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584977652964106593
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 0200000003000000
+  ExpandedWaapiItemIds: 02000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

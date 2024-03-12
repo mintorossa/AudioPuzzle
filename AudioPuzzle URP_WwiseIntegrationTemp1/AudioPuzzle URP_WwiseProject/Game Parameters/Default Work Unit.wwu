@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{26FD5BAE-F988-44CA-BDE0-7990E89CD310}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{26FD5BAE-F988-44CA-BDE0-7990E89CD310}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{26FD5BAE-F988-44CA-BDE0-7990E89CD310}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Azimuth" ID="{94373C55-F1D5-4D14-8B93-62AB37A2B23F}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -25,7 +25,7 @@
 						<Value Platform="Mac">C:\Users\Emil\AudioPuzzle URP\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE1NTMwIiBtYXNrPSJXV0ZQNzg3NCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMDItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0IiBleHBpcmVzPSIyMDI0LTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0IiBleHBpcmVzPSIyMDI0LTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjUiIG5hbWU9IkFsbCBXd2lzZSBQbHVnLUlucyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjQtMDItMDEiICAvPjwvcHJvamVjdD4=|ST0ZLNNmIuWzy1r4Zt3nltrWVmpyGF00AM0Vb2DAp5nXejJvBWlbKyjDxLtNrA7Rktlr7yqaepKWloy4JIWnU6fPR0poiCmayhDbb4/2bkE+8RwmJwKKsJZ8+bcVET2jznWknVTTT6aFroetHQLz+NdNqdIk40Ik0lCCVbTN8pvylEYLUDpDh0DAneG0IneYBR1bHAVH35Ov7D+zkyE8An02flS+lBeLsJUekSgKInPJDvfZWIOmE1Z6BZTgdBOtlyrtQgARd7KalVG8grJit5srRa5Yf78LC8kVFOA5aDWYqUwcvI0zMrjxrcQP++IJ3S4dg8YoYjN0nOsec8mQ1g=="/>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE2NDk5IiBtYXNrPSJNQ0hWNzk5MyIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwxMCIgZXhwaXJlcz0iMjAyNC0wOC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSI0LDEwIiBleHBpcmVzPSIyMDI0LTA4LTAxIiAgLz48bGljZW5zZSBpZD0iNzAiIG5hbWU9IkluZGllIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwxMCIgZXhwaXJlcz0iMjAyNC0wOC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjQzIiBuYW1lPSJBdXJvLUhlYWRwaG9uZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSI0LDEwIiBleHBpcmVzPSIyMDI0LTA4LTAxIiAgLz48cGx1Z2luIGlkPSI3MjA5MzgxMSIgbmFtZT0iQXVyby1IZWFkcGhvbmUiIGxpY2Vuc2U9IjQzIiAvPjwvcHJvamVjdD4=|WLJo9takJKHYIEQLM0pI6u3C0EuN8/uh+j/TSAWwuBAOp6PmvCoTUtSsWlcBUXkkm7lENuCxvwIcSRad2wDeji69lDik57YKzpQUqEzyYPsMuti4eVArxCq38SwcF0feikR+m3bxQj67HIk0uwB7/DGLz9/33bRP2Tedflqyczysa5epY0IliwiEAZrvqIB3EXc2/XWUyC008lwUQX9+XjCTfjAmi4H5zOkGU0Co+2sPm5hsVjpB/XxAj9TYyDq+5ZNcdZjvxR5j1GzVY/raIDISkWRbv6KHGfX7fiervdnFCHQpEEG4xMDrDV2dLkiW9GqmqliG5dVYiNdxWOwqXw=="/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
@@ -10689,6 +10689,130 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="Oculus Spatializer" PluginType="6" CompanyID="266" PluginID="146">
+					<PropertyList>
+						<Property Name="Bypass" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DEBUG Clamp Pos" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DEBUG Misc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Enable Reflections" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Global Scale" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflect Behind" Type="Real32">
+							<ValueList>
+								<Value>0.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflect Down" Type="Real32">
+							<ValueList>
+								<Value>0.1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflect Front" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflect Left" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflect Right" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflect Up" Type="Real32">
+							<ValueList>
+								<Value>0.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflections Range Max" Type="Real32">
+							<ValueList>
+								<Value>250</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reflections Range Min" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb On" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb Wet Mix" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Room Size X" Type="Real32">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Room Size Y" Type="Real32">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Room Size Z" Type="Real32">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Version" Type="Real32">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Voice Limit" Type="int32">
+							<ValueList>
+								<Value>64</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Wwise Synth One" PluginType="2" CompanyID="0" PluginID="148">
 					<PropertyList>
 						<Property Name="BaseFrequency" Type="Real32">
@@ -11748,6 +11872,50 @@
 						<Property Name="OverrideColor" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="266" PluginID="501">
+					<PropertyList>
+						<Property Name="Ambisonic" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttenuationRangeMax" Type="Real32">
+							<ValueList>
+								<Value>250</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttenuationRangeMin" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Bypass" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="EnableReflections" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReverbSendLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseInvSqAttenuation" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="VolumetricRadius" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

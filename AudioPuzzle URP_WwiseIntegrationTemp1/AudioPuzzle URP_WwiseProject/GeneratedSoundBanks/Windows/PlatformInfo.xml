@@ -6,7 +6,7 @@
 		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{EF6966A1-54B8-1E13-A3D3-81B03CA77AD4}</FileHash>
+	<FileHash>{986C2A7F-9787-FE3D-F25A-EF21A52C8EF3}</FileHash>
 </PlatformInfo>

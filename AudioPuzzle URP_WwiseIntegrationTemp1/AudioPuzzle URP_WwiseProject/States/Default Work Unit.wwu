@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5D91AF13-9D46-4963-8702-9876A6B158BF}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{5D91AF13-9D46-4963-8702-9876A6B158BF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5D91AF13-9D46-4963-8702-9876A6B158BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PickupMusic" ID="{BEBAE28C-7F51-4CE7-9ECB-588F6CF25A34}">
+					<ChildrenList>
+						<State Name="None" ID="{1717F5C9-7B01-4A88-A9DD-0EF3AFDF0F44}"/>
+						<State Name="A" ID="{F676EF5B-5CC0-4306-A9A0-73832AEFB482}"/>
+						<State Name="B" ID="{B9B30B5C-FD2E-48C6-B2E2-E2AA3E026EF9}"/>
+						<State Name="C" ID="{CB60FDF2-773A-47D9-A36B-69FB986FE4E5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PickupSFX" ID="{2894940B-2AAA-4C85-9ADD-FF00706CC708}">
+					<ChildrenList>
+						<State Name="None" ID="{782E13BC-9E86-440A-9327-2D19D7674CA1}"/>
+						<State Name="A" ID="{B78A6A68-74CD-4BE7-A06C-EC2A89161FD3}"/>
+						<State Name="B" ID="{D044E12F-3087-4867-90EB-4E2D25BF029C}"/>
+						<State Name="C" ID="{363817D0-3906-456D-9267-E126DC6D6050}"/>
+						<State Name="D" ID="{B038E321-1B78-4D34-AACF-1EE67FA31D59}"/>
+						<State Name="E" ID="{EC390F3D-BFD4-44F8-843E-038B342B06A8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

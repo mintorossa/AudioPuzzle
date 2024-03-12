@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="FootstepMaterial" ID="{522C6303-5F6A-476B-A8C2-E7474FABF2B8}">
+					<ChildrenList>
+						<Switch Name="Asphalt" ID="{E92B5D0A-1B2A-4E6D-A9BC-27290A24DCD6}"/>
+						<Switch Name="Wood" ID="{875F98D7-38A0-4F35-B301-48CCFF126C0A}"/>
+						<Switch Name="Grass" ID="{22D57C8D-9D59-4853-A20D-3F4F79E834D6}"/>
+						<Switch Name="Mud" ID="{6D135F60-B87D-40B0-A2D1-0F9CBBEFD1D4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="EventEnabled" ID="{5C41A0AE-5EA2-49A3-A228-2E2BE71ED9C0}">
+					<ChildrenList>
+						<Switch Name="On" ID="{ACADB199-42A5-4D96-9E9F-FBD3279776E3}"/>
+						<Switch Name="Off" ID="{F02E074A-7C89-48F7-AB9D-0F601B6BA3C0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

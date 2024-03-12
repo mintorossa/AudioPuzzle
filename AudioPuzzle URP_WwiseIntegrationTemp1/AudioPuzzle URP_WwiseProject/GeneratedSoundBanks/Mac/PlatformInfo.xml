@@ -6,7 +6,7 @@
 		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../AudioPuzzle URP/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{ECE20AAA-F54A-41E8-3B14-F7BFB5C8706A}</FileHash>
+	<FileHash>{AF3081E8-FBAC-54DA-0B52-0E1FA4756561}</FileHash>
 </PlatformInfo>

@@ -1,3 +1,19 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	444247238	PickupMusic			\Default Work Unit\PickupMusic	
+	4037693230	PickupSFX			\Default Work Unit\PickupSFX	
+
+State	ID	Name	State Group			Notes
+	84696444	C	PickupMusic			
+	84696445	B	PickupMusic			
+	84696446	A	PickupMusic			
+	748895195	None	PickupMusic			
+	84696442	E	PickupSFX			
+	84696443	D	PickupSFX			
+	84696444	C	PickupSFX			
+	84696445	B	PickupSFX			
+	84696446	A	PickupSFX			
+	748895195	None	PickupSFX			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	617296427	Positional			\Default Work Unit\Master Audio Bus\Positional	

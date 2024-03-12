@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
+		<PluginLib LibName="Wwise Silence" LibId="6619138" Type="Source" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 		<PluginLib LibName="Auro Headphone" LibId="72093811" Type="Effect" DLL="Auro" StaticLib="AuroHeadphoneFX"/>
 	</PluginLibs>
-	<FileHash>{96B1502F-3ECB-128C-F0FB-49B4081D3611}</FileHash>
+	<FileHash>{E61BD8CC-CE3E-D18F-FC54-1967E87F0044}</FileHash>
 </PluginInfo>

@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{EE129E00-3078-46F6-ACA0-498FA0065336}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="FootstepAsphalt" ID="{59A829E7-E0B6-4010-BCBB-5B3D00AA04EA}">
+				<Event Name="Footstep" ID="{59A829E7-E0B6-4010-BCBB-5B3D00AA04EA}">
 					<ChildrenList>
 						<Action Name="" ID="{84D55E89-DD3C-4BD1-8FE3-E092FDBB87E6}" ShortID="655929253">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FootstepAsphalt" ID="{7EB125CE-9247-48D5-8D9C-FABA13802A6A}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+									<ObjectRef Name="Footstep" ID="{FB16BA16-AA3F-4E53-9000-D9CD21EA7BCA}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -200,6 +200,43 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Fire" ID="{3B38263D-D821-45BF-9110-5EB887FD1899}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Barrelhit" ID="{54440147-4337-4F61-AFE3-560E1B719E59}">
+					<ChildrenList>
+						<Action Name="" ID="{B8B250BE-F34F-41E7-92CB-2E39656B2F01}" ShortID="81566745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Barrelhit" ID="{31DE58A2-2C85-4505-9812-61B3BB439B4B}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="PositionalAmbience" ID="{D4E8FD6F-FAFF-47BB-9BAD-FE0A1FC94761}" ShortID="981955250">
+					<ChildrenList>
+						<Event Name="Play_Night" ID="{22EE3603-B69B-4E60-B450-467F978DCBEE}">
+							<ChildrenList>
+								<Action Name="" ID="{22CEBDBA-987A-4FD7-8A3C-BEFA6BAF4CCB}" ShortID="888513503">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Night" ID="{8F72B9F1-51B6-47DA-A8FD-B9FC92346E68}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_PickupSFX" ID="{58DBB9CF-A6BE-4E36-863C-2C4B10B6D848}">
+					<ChildrenList>
+						<Action Name="" ID="{70D1AEB0-C4BA-47B4-80FF-676B84B4AC5C}" ShortID="787656373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickupSFX" ID="{98DE4E3F-00F0-403E-A110-1C716B84C0EF}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -8,6 +8,7 @@ public class CharacterMovementSoundtest2 : MonoBehaviour
     public float speedThreshold = 0.5f;    // Adjust this value based on the minimum speed to trigger sound
     public float soundInterval = 0.2f;     // Adjust this value for the time between sounds
     public ShowFootstepUI FootstepManager;
+    public FootstepSFX StepSoundManager;
     private bool isMoving = false;
     private float timer = 0f;
     private Vector3 lastPosition;
@@ -33,11 +34,11 @@ public class CharacterMovementSoundtest2 : MonoBehaviour
                 if (!isMoving)
                 {
                     // Start playing the sound when the character starts moving
-                    AkSoundEngine.PostEvent("FootstepAsphalt", this.gameObject);
+                    StepSoundManager.FootstepTakenSFX();
                     isMoving = true;
                     timer = 0f;
-                    Debug.LogWarning("First Step Taken");
-                    FootstepManager.FootstepTakenUI();
+                    // Debug.LogWarning("First Step Taken");
+                    // FootstepManager.FootstepTakenUI();
                 }
                 else
                 {
@@ -45,10 +46,10 @@ public class CharacterMovementSoundtest2 : MonoBehaviour
                     timer += Time.deltaTime;
                     if (timer >= soundInterval)
                     {
-                        AkSoundEngine.PostEvent("FootstepAsphalt", this.gameObject);
+                        StepSoundManager.FootstepTakenSFX();
                         timer = 0f;
-                        Debug.LogWarning("Step Taken");
-                        FootstepManager.FootstepTakenUI();
+                        // Debug.LogWarning("Step Taken");
+                        // FootstepManager.FootstepTakenUI();
                     }
                 }
             }

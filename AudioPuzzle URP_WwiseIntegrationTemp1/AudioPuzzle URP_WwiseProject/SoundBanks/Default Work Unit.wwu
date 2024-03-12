@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{664DCCC1-DE16-4C22-A0D6-E2593082F5DB}">
 					<ObjectInclusionList>
-						<ObjectRef Name="FootstepAsphalt" ID="{59A829E7-E0B6-4010-BCBB-5B3D00AA04EA}" WorkUnitID="{EE129E00-3078-46F6-ACA0-498FA0065336}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footstep" ID="{59A829E7-E0B6-4010-BCBB-5B3D00AA04EA}" WorkUnitID="{EE129E00-3078-46F6-ACA0-498FA0065336}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{EE129E00-3078-46F6-ACA0-498FA0065336}" WorkUnitID="{EE129E00-3078-46F6-ACA0-498FA0065336}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

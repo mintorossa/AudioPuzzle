@@ -13,172 +13,213 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="FootstepAsphalt" ID="{7EB125CE-9247-48D5-8D9C-FABA13802A6A}" ShortID="243358044">
+						<SwitchContainer Name="Footstep" ID="{FB16BA16-AA3F-4E53-9000-D9CD21EA7BCA}" ShortID="666967535">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CloseBody" ID="{6C9AA914-7895-4ED4-808D-6A9ED4A73373}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Asphalt" ID="{E92B5D0A-1B2A-4E6D-A9BC-27290A24DCD6}" WorkUnitID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}"/>
+								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+									<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="FootstepMaterial" ID="{522C6303-5F6A-476B-A8C2-E7474FABF2B8}" WorkUnitID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{81B65A0D-8A99-4D1D-B5A9-DE5BE1449548}" ShortID="485466878">
+								<RandomSequenceContainer Name="FootstepAsphalt" ID="{7EB125CE-9247-48D5-8D9C-FABA13802A6A}" ShortID="243358044">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+											<ObjectRef Name="SFX" ID="{467D298B-9436-444A-9894-6B5FE6ED9FBD}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{5EF03397-4889-4B75-88FF-F9B1A28EB0BD}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="323162568"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{81B65A0D-8A99-4D1D-B5A9-DE5BE1449548}" ShortID="485466878">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{5EF03397-4889-4B75-88FF-F9B1A28EB0BD}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="323162568"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{5EF03397-4889-4B75-88FF-F9B1A28EB0BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{7BDE380F-AE58-42AD-8FF1-BCF275CBFB7D}" ShortID="450632725">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{B1F5039F-27D3-42A8-96D9-68B6E275443E}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470626273"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{B1F5039F-27D3-42A8-96D9-68B6E275443E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{BE057E1E-3FD6-42D7-96A1-D8A137725D8A}" ShortID="844458168">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{E11CBD44-B52C-4C17-A0D3-49A39F8B28C1}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="426909933"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{E11CBD44-B52C-4C17-A0D3-49A39F8B28C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{D4A1AEDA-902B-4900-BC6B-1B29D70C5B8A}" ShortID="991591001">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{E215478C-AD47-4B01-BD0A-6309732F235C}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="733772238"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{E215478C-AD47-4B01-BD0A-6309732F235C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{844BBA86-1BD2-41C9-A76D-7C5B31A2C918}" ShortID="556583473">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{05645415-424F-499A-A0AB-BB15FF0423C2}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="788594963"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{05645415-424F-499A-A0AB-BB15FF0423C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{D66A6E19-A702-41C5-806C-8B5B200A1FB8}" ShortID="956087124">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{BBE5A699-0558-45A8-B98D-CEA1CF13214B}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="391668120"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{BBE5A699-0558-45A8-B98D-CEA1CF13214B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{CFE351CF-E308-4716-98F2-8C948E997E20}" ShortID="111268789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{9DF10268-85C2-4D66-A269-51C68C9848CB}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="907646342"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{9DF10268-85C2-4D66-A269-51C68C9848CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{5EF03397-4889-4B75-88FF-F9B1A28EB0BD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{7BDE380F-AE58-42AD-8FF1-BCF275CBFB7D}" ShortID="450632725">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{B1F5039F-27D3-42A8-96D9-68B6E275443E}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="470626273"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 1" ID="{B1F5039F-27D3-42A8-96D9-68B6E275443E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{BE057E1E-3FD6-42D7-96A1-D8A137725D8A}" ShortID="844458168">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{E11CBD44-B52C-4C17-A0D3-49A39F8B28C1}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="426909933"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 2" ID="{E11CBD44-B52C-4C17-A0D3-49A39F8B28C1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{D4A1AEDA-902B-4900-BC6B-1B29D70C5B8A}" ShortID="991591001">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{E215478C-AD47-4B01-BD0A-6309732F235C}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="733772238"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 3" ID="{E215478C-AD47-4B01-BD0A-6309732F235C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{844BBA86-1BD2-41C9-A76D-7C5B31A2C918}" ShortID="556583473">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{05645415-424F-499A-A0AB-BB15FF0423C2}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 4.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="788594963"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 4" ID="{05645415-424F-499A-A0AB-BB15FF0423C2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{D66A6E19-A702-41C5-806C-8B5B200A1FB8}" ShortID="956087124">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{BBE5A699-0558-45A8-B98D-CEA1CF13214B}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 5.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="391668120"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 5" ID="{BBE5A699-0558-45A8-B98D-CEA1CF13214B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{CFE351CF-E308-4716-98F2-8C948E997E20}" ShortID="111268789">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{9DF10268-85C2-4D66-A269-51C68C9848CB}">
-											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Asphalt, Male, Walk SND11513 6.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="907646342"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513 6" ID="{9DF10268-85C2-4D66-A269-51C68C9848CB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
-						</RandomSequenceContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="FootstepAsphalt" ID="{7EB125CE-9247-48D5-8D9C-FABA13802A6A}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Asphalt" ID="{E92B5D0A-1B2A-4E6D-A9BC-27290A24DCD6}"/>
+										<ItemList>
+											<ItemRef Name="FootstepAsphalt" ID="{7EB125CE-9247-48D5-8D9C-FABA13802A6A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Positional" ID="{7B8BDFD0-98BB-4BCE-BB1E-C6DC2BA815B4}" ShortID="443869519">
@@ -187,7 +228,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+							<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -272,7 +313,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+											<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -383,7 +424,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+											<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -458,7 +499,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -479,7 +520,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -515,7 +556,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -555,7 +596,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -639,7 +680,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -655,7 +696,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -697,7 +738,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -733,7 +774,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -779,7 +820,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -855,7 +896,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -931,7 +972,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -947,7 +988,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -983,7 +1024,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1023,7 +1064,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1099,7 +1140,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1175,7 +1216,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1259,7 +1300,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1335,7 +1376,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+													<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1357,8 +1398,15 @@
 										</Reference>
 									</ReferenceList>
 								</BlendContainer>
-								<BlendContainer Name="AmbientTEMP_01" ID="{A25AE87C-70E4-4BA2-9B13-AAB2920ECC7B}" ShortID="822768012">
+								<BlendContainer Name="Night" ID="{8F72B9F1-51B6-47DA-A8FD-B9FC92346E68}" ShortID="457344925">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="3dB Inverse Square 160m" ID="{6062CA8E-BAF2-48D6-A2FC-82DED7753195}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
 										</Reference>
@@ -1366,6 +1414,44 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ambience, Suburban, Night, Distant Traffic, Wash 01 SND1169" ID="{41E40A76-C947-477A-9CE3-477EE5886290}" ShortID="583585454">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ambience, Suburban, Night, Distant Traffic, Wash 01 SND1169" ID="{E26CA2C7-F650-4541-9B53-6B32F034447A}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1092.311"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.0123862550813"/>
+														<Property Name="LoopEnd" Type="Real64" Value="17.1665495426829"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience, Suburban, Night, Distant Traffic, Wash 01 SND1169.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773449636"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ambience, Suburban, Night, Distant Traffic, Wash 01 SND1169" ID="{E26CA2C7-F650-4541-9B53-6B32F034447A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
@@ -1375,7 +1461,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+									<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1424,7 +1510,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="GameObjects" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+									<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
@@ -1467,17 +1553,724 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="Barrelhit" ID="{31DE58A2-2C85-4505-9812-61B3BB439B4B}" ShortID="176236599">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Barrelhit" ID="{20B7BA49-C4AA-455E-86E2-5C462299A6B3}" ShortID="816207288">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Off" ID="{F02E074A-7C89-48F7-AB9D-0F601B6BA3C0}" WorkUnitID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="EventEnabled" ID="{5C41A0AE-5EA2-49A3-A228-2E2BE71ED9C0}" WorkUnitID="{00604448-9C20-4D65-99A0-EA0076D9DB8A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Barrelhit_01" ID="{B49DC7EF-BDE8-46DC-8B2A-3552DC670201}" ShortID="468380614">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Metal, Tonal, Impact, Barrel, Hit SND0657 2" ID="{443AF5B8-7F54-40B2-A628-1AE23EB3850A}" ShortID="12930735">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-0.7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{467D298B-9436-444A-9894-6B5FE6ED9FBD}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 2" ID="{FAFC27D4-B1F8-4D1E-8779-13DA5E867324}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.578296493902439"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Metal, Tonal, Impact, Barrel, Hit SND0657 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="304481849"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 2" ID="{FAFC27D4-B1F8-4D1E-8779-13DA5E867324}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal, Tonal, Impact, Barrel, Hit SND0657 3" ID="{0B96134C-FE3C-4861-8B39-189039C7FCDA}" ShortID="95881581">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-0.2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{467D298B-9436-444A-9894-6B5FE6ED9FBD}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 3" ID="{E5DCE9F3-1E55-4242-A421-00AECA1BD643}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.184980259146342"/>
+																<Property Name="LoopEnd" Type="Real64" Value="1.32319212398374"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.33819052337398"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Metal, Tonal, Impact, Barrel, Hit SND0657 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="334033127"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 3" ID="{E5DCE9F3-1E55-4242-A421-00AECA1BD643}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal, Tonal, Impact, Barrel, Hit SND0657 4" ID="{20D519C7-3CBB-4F0A-8AF9-7F09EA9DD0A1}" ShortID="27921984">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>0.9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 4" ID="{A9946C1E-95B8-4C88-BD7E-A135AC9789CA}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.268727540650407"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Metal, Tonal, Impact, Barrel, Hit SND0657 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="677344345"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 4" ID="{A9946C1E-95B8-4C88-BD7E-A135AC9789CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal, Tonal, Impact, Barrel, Hit SND0657 5" ID="{AA356F0D-1A8D-42D5-AF24-4E2B7A8D7071}" ShortID="334302298">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 5" ID="{06949CBC-5AF2-4422-836D-2F8BD6846C5A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.257882926829268"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Metal, Tonal, Impact, Barrel, Hit SND0657 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="31914501"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 5" ID="{06949CBC-5AF2-4422-836D-2F8BD6846C5A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal, Tonal, Impact, Barrel, Hit SND0657 6" ID="{C7DFC4BA-2302-4172-932D-2C4AC050475B}" ShortID="902887384">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 6" ID="{EF71FFAF-C1D0-4729-B5A6-B680E793B56D}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.192815243902439"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.33617581300813"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Metal, Tonal, Impact, Barrel, Hit SND0657 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="251718847"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 6" ID="{EF71FFAF-C1D0-4729-B5A6-B680E793B56D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal, Tonal, Impact, Barrel, Hit SND0657 7" ID="{A181C592-2DC5-449C-881D-D7D2D26EDFAC}" ShortID="386231194">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>2.5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 7" ID="{2B58FD72-A7B8-49A1-B19A-9F4ABA507BC1}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.621575457317073"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Metal, Tonal, Impact, Barrel, Hit SND0657 7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="444985330"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal, Tonal, Impact, Barrel, Hit SND0657 7" ID="{2B58FD72-A7B8-49A1-B19A-9F4ABA507BC1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Barrelhit_01" ID="{B49DC7EF-BDE8-46DC-8B2A-3552DC670201}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="On" ID="{ACADB199-42A5-4D96-9E9F-FBD3279776E3}"/>
+												<ItemList>
+													<ItemRef Name="Barrelhit_01" ID="{B49DC7EF-BDE8-46DC-8B2A-3552DC670201}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<Sound Name="Silence2sRand_01" ID="{AD3C2E9A-2E56-4226-849C-5A4591D6F522}" ShortID="149243632">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{1931C3E3-84BC-4444-8D2C-38DA437E5393}" ShortID="650504657" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="2"/>
+												<Property Name="LengthMax" Type="Real32" Value="1"/>
+												<Property Name="LengthMin" Type="Real32" Value="-1"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{1931C3E3-84BC-4444-8D2C-38DA437E5393}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Silence2sRand_01" ID="{AD3C2E9A-2E56-4226-849C-5A4591D6F522}"/>
+								<ItemRef Name="Barrelhit" ID="{20B7BA49-C4AA-455E-86E2-5C462299A6B3}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<ActorMixer Name="SFX" ID="{F9757EDF-DC50-427F-848F-C8E9789D06E0}" ShortID="436397344">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="PickupMusic" ID="{AA4FBCBB-45BF-481C-8974-A3FBC38262D8}" ShortID="20098525">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="C" ID="{CB60FDF2-773A-47D9-A36B-69FB986FE4E5}" WorkUnitID="{5D91AF13-9D46-4963-8702-9876A6B158BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="PickupMusic" ID="{BEBAE28C-7F51-4CE7-9ECB-588F6CF25A34}" WorkUnitID="{5D91AF13-9D46-4963-8702-9876A6B158BF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PickupSFX-02" ID="{78080984-E2D4-4E84-BB71-055067F7B0E0}" ShortID="109427863">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PickupSFX-02" ID="{E07F5735-1329-438C-9D7D-F87BBA036F2A}">
+													<Language>SFX</Language>
+													<AudioFile>PickupSFX-02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="380510142"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PickupSFX-02" ID="{E07F5735-1329-438C-9D7D-F87BBA036F2A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PickupSFX-03" ID="{ADEBF54B-9366-45C8-990E-E4E09A2754E4}" ShortID="286015251">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PickupSFX-03" ID="{74532E9E-54CF-4F0B-9B2C-6076DEAFA77D}">
+													<Language>SFX</Language>
+													<AudioFile>PickupSFX-03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="208395766"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PickupSFX-03" ID="{74532E9E-54CF-4F0B-9B2C-6076DEAFA77D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PickupSFX-04" ID="{F9F35DA5-F5D0-427C-90FA-7700BF315CC4}" ShortID="446977319">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PickupSFX-04" ID="{77E3260A-D920-4B30-A47B-F212B66A14D1}">
+													<Language>SFX</Language>
+													<AudioFile>PickupSFX-04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="979509074"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PickupSFX-04" ID="{77E3260A-D920-4B30-A47B-F212B66A14D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="PickupSFX-03" ID="{ADEBF54B-9366-45C8-990E-E4E09A2754E4}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="PickupSFX-02" ID="{78080984-E2D4-4E84-BB71-055067F7B0E0}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="PickupSFX-04" ID="{F9F35DA5-F5D0-427C-90FA-7700BF315CC4}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="A" ID="{F676EF5B-5CC0-4306-A9A0-73832AEFB482}"/>
+												<ItemList>
+													<ItemRef Name="PickupSFX-02" ID="{78080984-E2D4-4E84-BB71-055067F7B0E0}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="B" ID="{B9B30B5C-FD2E-48C6-B2E2-E2AA3E026EF9}"/>
+												<ItemList>
+													<ItemRef Name="PickupSFX-03" ID="{ADEBF54B-9366-45C8-990E-E4E09A2754E4}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="C" ID="{CB60FDF2-773A-47D9-A36B-69FB986FE4E5}"/>
+												<ItemList>
+													<ItemRef Name="PickupSFX-04" ID="{F9F35DA5-F5D0-427C-90FA-7700BF315CC4}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="PickupSFX" ID="{98DE4E3F-00F0-403E-A110-1C716B84C0EF}" ShortID="340120884">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FD416635-AB9C-4E00-9CF6-39CA1E58284C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MonoDigitalPickupSFX-04_L" ID="{6CB6518B-C944-4FB9-A5D5-1F1F231889F6}" ShortID="522389317">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonoDigitalPickupSFX-04_L" ID="{7B54D479-74B7-46E3-A2E1-0C43D40589D5}">
+													<Language>SFX</Language>
+													<AudioFile>MonoDigitalPickupSFX-04_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850655793"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonoDigitalPickupSFX-04_L" ID="{7B54D479-74B7-46E3-A2E1-0C43D40589D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonoDigitalPickupSFX-08_L" ID="{C1F977B0-F7FE-4774-BDA3-BFB31AE3D36B}" ShortID="361491694">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonoDigitalPickupSFX-08_L" ID="{AF1E782A-8AB7-4453-AAE3-D820D3AE46E4}">
+													<Language>SFX</Language>
+													<AudioFile>MonoDigitalPickupSFX-08_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854574126"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonoDigitalPickupSFX-08_L" ID="{AF1E782A-8AB7-4453-AAE3-D820D3AE46E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonoDigitalPickupSFX-01_L" ID="{1465331A-FFC3-46B0-B242-DF38188118AB}" ShortID="744851227">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonoDigitalPickupSFX-01_L" ID="{EDA110FF-45F5-4BF3-B05A-4BB30C838A30}">
+													<Language>SFX</Language>
+													<AudioFile>MonoDigitalPickupSFX-01_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="763808551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonoDigitalPickupSFX-01_L" ID="{EDA110FF-45F5-4BF3-B05A-4BB30C838A30}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonoDigitalPickupSFX-02_L" ID="{35E260D1-62EC-4545-A778-C33EAF75A85D}" ShortID="215978957">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonoDigitalPickupSFX-02_L" ID="{F4C6234E-5D4B-408E-94D0-5A1D34087887}">
+													<Language>SFX</Language>
+													<AudioFile>MonoDigitalPickupSFX-02_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8390914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonoDigitalPickupSFX-02_L" ID="{F4C6234E-5D4B-408E-94D0-5A1D34087887}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonoDigitalPickupSFX-03_L" ID="{1FAD9F50-BF9C-485D-8621-2D20A5D5C254}" ShortID="935777801">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Inverse Square 80m" ID="{F06B1421-7C00-4E66-BE60-56366488EF74}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonoDigitalPickupSFX-03_L" ID="{FCEF9926-9117-491C-8A48-DC9F06C3E3C2}">
+													<Language>SFX</Language>
+													<AudioFile>MonoDigitalPickupSFX-03_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="235660710"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonoDigitalPickupSFX-03_L" ID="{FCEF9926-9117-491C-8A48-DC9F06C3E3C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambience" ID="{3490A16D-FEF1-4A57-BCF0-24172D603AD5}" ShortID="234971228">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+							<ObjectRef Name="SFX" ID="{467D298B-9436-444A-9894-6B5FE6ED9FBD}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
 						</Reference>
 					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="PositionalAzimuthBoost" ID="{43ED4715-F78F-478F-B74C-1BD77F216B25}" ShortID="771095432">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Inverse Square 40m" ID="{967D72AD-0EA2-44E9-A494-FBA845AAFA97}" WorkUnitID="{CD220E8D-757B-421F-A01A-D6B304FEE54D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6581FCD-7A4E-455A-A3DF-20FB02CF703C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Positional" ID="{4C9B05C1-27B6-45B1-82E7-34CF0705920A}" WorkUnitID="{6CF61200-57D2-49AF-9184-BC421442110D}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{D7C092E7-0CA0-4195-AB34-8D7FED76C327}" ShortID="709773969">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Azimuth" ID="{94373C55-F1D5-4D14-8B93-62AB37A2B23F}" WorkUnitID="{26FD5BAE-F988-44CA-BDE0-7990E89CD310}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{3D90036C-3670-46AB-9F86-E9B2349E9A7E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-90</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>90</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
