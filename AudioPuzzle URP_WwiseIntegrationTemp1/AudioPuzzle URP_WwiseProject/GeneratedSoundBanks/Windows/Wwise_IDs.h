@@ -30,7 +30,9 @@ namespace AK
         static const AkUniqueID PLAY_FIRE = 3015324718U;
         static const AkUniqueID PLAY_FROG = 2659198924U;
         static const AkUniqueID PLAY_FROG2 = 1337894422U;
+        static const AkUniqueID PLAY_GLITCHLOOP = 3825865299U;
         static const AkUniqueID PLAY_JAPANESEWHISPER = 2998759187U;
+        static const AkUniqueID PLAY_METALSLAM = 2388694684U;
         static const AkUniqueID PLAY_NIGHT = 4206683656U;
         static const AkUniqueID PLAY_PICKUPSFX = 3043903975U;
         static const AkUniqueID STOPALL200MS = 2751300724U;

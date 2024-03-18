@@ -72,7 +72,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A248865F-E1DC-E31B-A53F-B624D65F2E32}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A15DBDEE-0918-5AB5-1681-6724B3E8F95A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -87,6 +87,10 @@
 				<File Id="31914501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 5.wav</ShortName>
 					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 5_74AA2280.wem</CachePath>
+				</File>
+				<File Id="151422588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1.wav</ShortName>
+					<CachePath>SFX/Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="152278457" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Animals, Amphibian, Croaking Frog SND76759.wav</ShortName>
@@ -112,10 +116,6 @@
 					<ShortName>Water, Drip, Single Drip SND55616.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Single Drip SND55616_E501BC75.wem</CachePath>
 				</File>
-				<File Id="304481849" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 2.wav</ShortName>
-					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 2_52EF65B1.wem</CachePath>
-				</File>
 				<File Id="310033959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Rhythmic Drops, Melting Snow, Turku Finland 01 SND81112 - Pitch 50 1_10C4C929.wem</CachePath>
@@ -128,17 +128,33 @@
 					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 3.wav</ShortName>
 					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 3_DF686E12.wem</CachePath>
 				</File>
+				<File Id="338246639" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4.wav</ShortName>
+					<CachePath>SFX/Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4_10C4C929.wem</CachePath>
+				</File>
 				<File Id="343245534" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Droplets Of Water, Metal Bucket SND62948 1.wav</ShortName>
 					<CachePath>SFX/Water, Drip, Droplets Of Water, Metal Bucket SND62948 1_CA48C3A4.wem</CachePath>
+				</File>
+				<File Id="380071066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955.wav</ShortName>
+					<CachePath>SFX/Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955_10C4C929.wem</CachePath>
 				</File>
 				<File Id="391668120" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 5.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 5_10C4C929.wem</CachePath>
 				</File>
+				<File Id="408095766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 2.wav</ShortName>
+					<CachePath>SFX/Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="426909933" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 2.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="444985330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Tonal, Impact, Barrel, Hit SND0657 7.wav</ShortName>
+					<CachePath>SFX/Metal, Tonal, Impact, Barrel, Hit SND0657 7_22E4485B.wem</CachePath>
 				</File>
 				<File Id="453838234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Isolated, Water, Small, Container 01 SND50335.wav</ShortName>
@@ -147,6 +163,10 @@
 				<File Id="470626273" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Asphalt, Male, Walk SND11513 1.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Asphalt, Male, Walk SND11513 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="476540228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3.wav</ShortName>
+					<CachePath>SFX/Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3_10C4C929.wem</CachePath>
 				</File>
 				<File Id="518713305" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water, Drip, Intense Water Drops SND55615.wav</ShortName>
@@ -220,10 +240,16 @@
 					<ShortName>Soundly Audio\Animal, Cat Domestic, Purr, Close SND70274.wav</ShortName>
 					<CachePath>SFX/Soundly Audio/Animal, Cat Domestic, Purr, Close SND70274_A5CDF898.wem</CachePath>
 				</File>
+				<File Id="990589710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MonoDigitalPickupSFX-12_L.wav</ShortName>
+					<CachePath>SFX/MonoDigitalPickupSFX-12_L_82E4B5EE.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<Custom>
+					<Plugin Id="544820211" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
 					<Plugin Id="650504657" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="1000452973" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -255,8 +281,8 @@
 							<MediaRefs>
 								<MediaRef Id="31914501"/>
 								<MediaRef Id="251718847"/>
-								<MediaRef Id="304481849"/>
 								<MediaRef Id="334033127"/>
+								<MediaRef Id="444985330"/>
 								<MediaRef Id="677344345"/>
 							</MediaRefs>
 						</SwitchContainer>
@@ -338,11 +364,48 @@
 						<MediaRef Id="981268658"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3825865299" Name="Play_GlitchLoop" MaxAttenuation="80" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2364741570" Id="930712164" Default="true"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="1000452973"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2364741570" Id="1651971902"/>
+							<MediaRefs>
+								<MediaRef Id="990589710"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2998759187" Name="Play_JapaneseWhisper" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="758156000"/>
 						<MediaRef Id="923675673"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="2388694684" Name="Play_MetalSlam" MaxAttenuation="80" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="544820211"/>
+						</Custom>
+					</PluginRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2364741570" Id="1651971902"/>
+							<MediaRefs>
+								<MediaRef Id="151422588"/>
+								<MediaRef Id="338246639"/>
+								<MediaRef Id="380071066"/>
+								<MediaRef Id="408095766"/>
+								<MediaRef Id="476540228"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="4206683656" Name="Play_Night" MaxAttenuation="160" DurationType="Infinite">
 					<MediaRefs>
@@ -360,6 +423,9 @@
 				</Event>
 				<Event Id="2751300724" Name="StopAll200ms" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1437246667" Name="Azimuth"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2364741570" Name="EventEnabled">
 					<Switches>
@@ -378,5 +444,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0F9E896A-5FB2-FBE1-43B4-3FF84104AFE6}</FileHash>
+	<FileHash>{80566E3D-B9C9-5F4D-442A-79412D9077D2}</FileHash>
 </SoundBanksInfo>

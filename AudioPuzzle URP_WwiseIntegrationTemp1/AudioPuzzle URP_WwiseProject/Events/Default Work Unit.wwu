@@ -205,17 +205,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Barrelhit" ID="{54440147-4337-4F61-AFE3-560E1B719E59}">
-					<ChildrenList>
-						<Action Name="" ID="{B8B250BE-F34F-41E7-92CB-2E39656B2F01}" ShortID="81566745">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Barrelhit" ID="{31DE58A2-2C85-4505-9812-61B3BB439B4B}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="PositionalAmbience" ID="{D4E8FD6F-FAFF-47BB-9BAD-FE0A1FC94761}" ShortID="981955250">
 					<ChildrenList>
 						<Event Name="Play_Night" ID="{22EE3603-B69B-4E60-B450-467F978DCBEE}">
@@ -242,6 +231,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Waypoints" ID="{A46E59FF-6BD4-456A-9188-A61BC0DF34C4}" ShortID="984437682">
+					<ChildrenList>
+						<Event Name="Play_Barrelhit" ID="{54440147-4337-4F61-AFE3-560E1B719E59}">
+							<ChildrenList>
+								<Action Name="" ID="{B8B250BE-F34F-41E7-92CB-2E39656B2F01}" ShortID="81566745">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Barrelhit" ID="{31DE58A2-2C85-4505-9812-61B3BB439B4B}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MetalSlam" ID="{B0D93B7B-9747-47E9-BFF6-5E2204FA9B0C}">
+							<ChildrenList>
+								<Action Name="" ID="{4B596E2A-0D2D-48AB-8329-32926A99195F}" ShortID="706941345">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MetalSlam" ID="{FAFE5A52-AE61-4045-BB55-214FF374EF62}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GlitchLoop" ID="{63E98AD1-A761-4D96-B847-088FA2463962}">
+							<ChildrenList>
+								<Action Name="" ID="{C72813F1-DE13-4508-AA84-1216921AE5A9}" ShortID="705628110">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GlitchLoop" ID="{37D25A6A-E6AF-4BBF-A3DA-3DC6510884E4}" WorkUnitID="{40027EF6-2FDA-45A2-9264-2B973E62E8EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

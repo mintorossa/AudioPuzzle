@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class PickupManager : MonoBehaviour
 {
-    private List<Pickup> interactableObjectsList = new List<Pickup>();
-    private int currentObjectIndex = 0;
-    
+    public List<Pickup> interactableObjectsList = new List<Pickup>();
+    public int currentObjectIndex = 0;
+    public KeyCode key = KeyCode.E; // Define the key to listen for
     public float interactionDistance = 2f;
     public GameObject PickupAnimation;
     private GameObject CurrentPickupAnimation;
+    public Vector3 spawnPosition = new Vector3(1f, 1f, 1f);
+    private Vector3 spawnPos;
     
     
    
@@ -28,6 +30,7 @@ public class PickupManager : MonoBehaviour
             if (hit.collider.CompareTag("Pickup") || hit.collider.gameObject.layer == LayerMask.NameToLayer("Pickup"))
             {
                 Vector3 spawnPosition = interactableObjectsList[currentObjectIndex - 1].gameObject.transform.position;
+                Debug.Log("PickupManager Coordinates" + spawnPosition);
                 CurrentPickupAnimation = Instantiate(PickupAnimation, spawnPosition, Quaternion.identity);
                 CurrentPickupAnimation.gameObject.SetActive(true);
                 interactableObjectsList[currentObjectIndex - 1].PlayPickupSFX();
@@ -37,9 +40,19 @@ public class PickupManager : MonoBehaviour
             }
             
         }
-        
-    }
 
+        /* if (Input.GetKeyDown(key))
+        {
+            
+            spawnPos = interactableObjectsList[currentObjectIndex - 1].gameObject.transform.position;
+            
+            // player.position = spawnPos;
+            Debug.Log("Your message: " + spawnPos);
+            
+            
+        } */
+    }
+    
     
 
     

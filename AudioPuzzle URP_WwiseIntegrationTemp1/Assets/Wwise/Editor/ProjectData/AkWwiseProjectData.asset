@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 009e12ee7830f646aca0498fa0065336
     GuidInternal: 
-    m_lastTime: -8584913404159430391
+    m_lastTime: -8584912785608655818
     List:
     - name: Drip
       guid: 7c36bae03a2527428d25131600b4aa0f
@@ -174,10 +174,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Waypoints
+        ObjectType: 4
+        guid: ff596ea4d46b6a459188a61bc0df34c4
       - ElementName: Play_Barrelhit
         ObjectType: 3
         guid: 470144543743614fafe3560e1b719e59
-      Path: Events\Default Work Unit\Play_Barrelhit
+      Path: Events\Default Work Unit\Waypoints\Play_Barrelhit
       maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
@@ -466,6 +469,26 @@ MonoBehaviour:
       maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
+    - name: Play_GlitchLoop
+      guid: d18ae96361a7964db847088fa2463962
+      id: 3825865299
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Waypoints
+        ObjectType: 4
+        guid: ff596ea4d46b6a459188a61bc0df34c4
+      - ElementName: Play_GlitchLoop
+        ObjectType: 3
+        guid: d18ae96361a7964db847088fa2463962
+      Path: Events\Default Work Unit\Waypoints\Play_GlitchLoop
+      maxAttenuation: 80
+      maxDuration: -1
+      minDuration: -1
     - name: Play_JapaneseWhisper
       guid: 8d6f1d5d15521f47990f09f790289ad5
       id: 2998759187
@@ -480,6 +503,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8d6f1d5d15521f47990f09f790289ad5
       Path: Events\Default Work Unit\Play_JapaneseWhisper
+      maxAttenuation: 80
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MetalSlam
+      guid: 7b3bd9b04797e947bff65e2204fa9b0c
+      id: 2388694684
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Waypoints
+        ObjectType: 4
+        guid: ff596ea4d46b6a459188a61bc0df34c4
+      - ElementName: Play_MetalSlam
+        ObjectType: 3
+        guid: 7b3bd9b04797e947bff65e2204fa9b0c
+      Path: Events\Default Work Unit\Waypoints\Play_MetalSlam
       maxAttenuation: 80
       maxDuration: -1
       minDuration: -1
@@ -554,6 +597,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Waypoints
+      guid: ff596ea4d46b6a459188a61bc0df34c4
+      id: 3003116043
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 009e12ee7830f646aca0498fa0065336
+      - ElementName: Waypoints
+        ObjectType: 4
+        guid: ff596ea4d46b6a459188a61bc0df34c4
+      Path: Events\Default Work Unit\Waypoints
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -952,7 +1012,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584977652964106593
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000
+  ExpandedFileSystemItemIds: 020000000300000006000000
   ExpandedWaapiItemIds: 02000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
